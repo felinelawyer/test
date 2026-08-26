@@ -6,7 +6,7 @@ requirements:[
   nickel/700
 ]
 alwaysUnlocked: true
-uniyType: test-core-unit
+unitType: test-core-unit
 size: 3
 solid: false
 armor: 4
