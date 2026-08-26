@@ -1,0 +1,7 @@
+name: "test"
+displayName: "mod"
+author: jam
+description: "ooo"
+version: "test"
+minGameVersion: "159.7"
+hidden: false
