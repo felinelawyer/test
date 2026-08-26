@@ -1,11 +1,13 @@
 name: core unit
 description: tester
+health:300
 type: legs
 controller: BuilderAI
 stepSoundVolume: 0.3
 stepSound: mechStepSmall
 legCount: 6
 lockLegBase: true
+hovering: true
 legExtension: -3
 legBaseOffset: 4
 legMaxLength: 1
@@ -14,3 +16,18 @@ legSpeed: 0.25
 legGroup: 3
 legPairOffset: 0.25
 legLengthScl: 0.6
+legWidthScl: 0.45
+legstraightness: 0.7
+emitWalkParticles: true
+shadowElevation: 0.1
+rotateSpeed: 4.5
+emitWalkSound: true
+abilities: [
+    {
+    type:ForceFieldAbility
+    max: 120
+    radius: 25
+    cooldown: 420
+    regen: 0.4
+    }
+]
