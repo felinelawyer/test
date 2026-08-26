@@ -1,0 +1,14 @@
+type: item
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.25
+color: FFFAB5FF
+
+research: {
+  parent: core-claron
+  objectives: [
+    nickel
+  ]
+}
+shownPlanets: [serpulo]
