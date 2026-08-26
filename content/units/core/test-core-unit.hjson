@@ -1,0 +1,5 @@
+name: core unit
+description: tester
+type: legs
+controller: BuilderAI
+stepSoundVolume: 0.3
