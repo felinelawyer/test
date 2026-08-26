@@ -3,3 +3,14 @@ description: tester
 type: legs
 controller: BuilderAI
 stepSoundVolume: 0.3
+stepSound: mechStepSmall
+legCount: 6
+lockLegBase: true
+legExtension: -3
+legBaseOffset: 4
+legMaxLength: 1
+legMinLength: 0.2
+legSpeed: 0.25
+legGroup: 3
+legPairOffset: 0.25
+legLengthScl: 0.6
