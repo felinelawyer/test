@@ -4,6 +4,7 @@ description: router
 category: distribution
 health: 60
 size: 1
+speed: 6
 squareSprite: true
 regionRotated1: 1
 
