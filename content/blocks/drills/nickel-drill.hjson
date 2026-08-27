@@ -24,9 +24,15 @@ drillEffect: [
         colorTo: ffffff
         lifetime: 30
     }
-    {type: mineImpact}
-    {type: mineImpactSteam}
-    {type: drillSteam}
+    {
+    type: mineImpact
+    }
+    {
+    type: mineImpactSteam
+    }
+    {
+    type: drillSteam
+    }
 ]
 
 requirements: [
@@ -35,7 +41,7 @@ requirements: [
 
 consumes: {
     liquid: name-water/15
-    }
+}
 
 research: {
     parent: core-claron
