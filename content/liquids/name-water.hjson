@@ -1,0 +1,13 @@
+type: Liquid
+color: 423FA7FF
+gasColor: a5adfcff
+research: nickel
+
+incinerable: false
+boilPoint: 0.4
+explosiveness: 0.1
+flammability: 0.05
+temperature: 0.1
+heatCapacity: 0.2
+viscosity: 0.6
+blockReactive: false

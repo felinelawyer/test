@@ -11,6 +11,7 @@ armor: 2
 outlineColor: 10282CFF
 mineSpeed: 9
 mineRange: 60
+canmine: true
 buildSpeed: 0.7
 fogRadius: 30
 buildRange: 22
