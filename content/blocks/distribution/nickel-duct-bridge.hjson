@@ -5,7 +5,7 @@ category: distribution
 squareSprite: true
 range: 3
 itemCapacity: 4
-speed: 120
+speed: 30
 health: 75
 size: 1
 solid: false

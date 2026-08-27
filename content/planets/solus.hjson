@@ -21,8 +21,7 @@ hasAtmosphere: false
 bloom: true
 orbitSpacing: 18
 solarSystem: solus
-parent: sun
 orbitRadius: 10000
 drawOrbit: false
-tidalLock: false
+tidalLock: true
 iconColor: FF9400FF

@@ -2,7 +2,7 @@ type: Duct
 name: Nickel Duct
 description: tests
 category: distribution
-speed: 480
+speed: 7.5
 itemCapacity: 1
 health: 45
 bridgeReplacement: nickel-duct-bridge

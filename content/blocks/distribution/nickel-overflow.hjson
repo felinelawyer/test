@@ -3,7 +3,7 @@ name: Overflow Duct
 description: stall
 category: distribution
 health: 50
-speed: 480
+speed: 7.5
 itemCapacity: 1
 
 requirements: [

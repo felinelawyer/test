@@ -43,5 +43,6 @@ abilities: [
     radius: 25
     cooldown: 420
     regen: 0.4
+    sides: 24
     }
 ]
