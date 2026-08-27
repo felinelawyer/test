@@ -3,6 +3,8 @@ name: Overflow Duct
 description: stall
 category: distribution
 health: 50
+speed: 480
+itemCapacity: 1
 
 requirements: [
     nickel/6

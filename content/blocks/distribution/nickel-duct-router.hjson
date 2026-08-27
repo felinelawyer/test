@@ -5,6 +5,10 @@ category: distribution
 health: 60
 size: 1
 speed: 480
+<<<<<<< Updated upstream
+=======
+itemCapacity: 1
+>>>>>>> Stashed changes
 squareSprite: true
 regionRotated1: 1
 

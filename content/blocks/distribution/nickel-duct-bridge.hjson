@@ -4,7 +4,8 @@ description: bridg
 category: distribution
 squareSprite: true
 range: 3
-speed: 1.6
+itemCapacity: 4
+speed: 120
 health: 75
 size: 1
 solid: false

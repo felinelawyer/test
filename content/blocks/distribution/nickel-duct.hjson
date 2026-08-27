@@ -3,6 +3,10 @@ name: Nickel Duct
 description: tests
 category: distribution
 speed: 480
+<<<<<<< Updated upstream
+=======
+itemCapacity: 1
+>>>>>>> Stashed changes
 health: 45
 bridgeReplacement: nickel-duct-bridge
 junctionReplacement: nickel-junc

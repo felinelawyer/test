@@ -3,6 +3,8 @@ name: Underflow Duct
 description: oooo
 category: distribution
 health: 50
+speed: 480
+itemCapacity: 1
 invert: true
 
 requirements: [

@@ -5,7 +5,11 @@ category: distribution
 squareSprite: true
 health: 50
 size: 1
+<<<<<<< Updated upstream
 speed: 8
+=======
+speed: 10
+>>>>>>> Stashed changes
 
 requirements: [
     nickel/2
