@@ -4,7 +4,7 @@ description: tests
 category: distribution
 speed: 4
 health: 45
-bridgeReplacement: nickel-bridge
+bridgeReplacement: nickel-duct-bridge
 junctionReplacement: nickel-junc
 
 requirements: [

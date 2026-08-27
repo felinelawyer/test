@@ -11,7 +11,7 @@ size: 3
 solid: false
 armor: 4
 health: 2500
-itemCapacity:2 2500
+itemCapacity: 2500
 unitCapModifier: 7
 isFirstTier: true
 squareSprite: true
