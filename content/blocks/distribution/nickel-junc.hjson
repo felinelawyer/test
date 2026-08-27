@@ -5,7 +5,7 @@ category: distribution
 squareSprite: true
 health: 50
 size: 1
-speed: 13.3333333
+speed: 8
 
 requirements: [
     nickel/2
