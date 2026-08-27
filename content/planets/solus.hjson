@@ -25,3 +25,4 @@ orbitRadius: 10000
 drawOrbit: false
 tidalLock: true
 iconColor: FF9400FF
+icon: commandRally
