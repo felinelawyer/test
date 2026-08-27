@@ -1,0 +1,28 @@
+localizedName: Solus
+mesh: {
+    type: SunMesh
+    divisions: 6
+    octaves: 2
+    scl: 1.7
+    pow: 1
+    mag: 1.4
+    colorScale: 1.2
+    colors: [
+        FF8400,
+        FF9400,
+        FFA500,
+        FFBB00,
+    ]
+}
+radius: 8
+accessible: false
+visible: true
+hasAtmosphere: false
+bloom: true
+orbitSpacing: 18
+solarSystem: solus
+parent: sun
+orbitRadius: 10000
+drawOrbit: false
+tidalLock: false
+iconColor: FF9400FF
