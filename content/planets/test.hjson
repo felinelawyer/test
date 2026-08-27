@@ -1,0 +1,57 @@
+localizedName: tests
+description: nun
+alwaysUnlocked: true
+mesh: [
+    {
+        //
+        type: PlanetMesh
+        planet: test
+        persistance: 0.75
+        divisions: 6
+        octaves: 2
+        radius: 0.975
+        seed: 345
+        color1: FFFFFFFF
+    }
+]
+generator: {
+  octaves: 4
+  persistence: 0.52
+  scale: 46
+  mag: 0.721
+  thresh: 1.18
+  min: 100
+  max: 100
+  radMin: 220
+  radMax: 600
+  iceChance: 0.51
+  carbonChance: 0.32
+  berylChance: 0
+  ferricChance: 0.26
+}
+orbitRadius: 90
+sectorSize: 1
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLaunchLoadout: false
+allowSectorInvasion: false
+startSector: 0
+orbitSpacing: 2
+radius: 0.8
+minZoom: 1
+drawOrbit: true
+atmosphereRadIn: 0
+atmosphereRadOut: 0.4
+accessible: true
+updateLighting: true
+sectorSeed: 83293
+bloom: true
+visible: true
+atmosphereColor: 00dd81ff
+iconColor: cecf72ff
+hasAtmosphere: true
+clearSectorOnLose: true
+allowWaves: true
+prebuildBase: false
+defaultCore: core-claron
+parent: solus
