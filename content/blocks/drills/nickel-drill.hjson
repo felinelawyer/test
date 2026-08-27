@@ -11,6 +11,7 @@ size: 3
 itemCapacity: 25
 drillTime: 360
 liquidBoostIntensity: 1.2
+liquidCapacity: 75
 rotateSpeed: 6
 
 drillEffect: [
@@ -40,7 +41,12 @@ requirements: [
 ]
 
 consumes: {
-    liquid: name-water/15
+    liquid: name-water/0.25
+    liquids: {
+        liquids: []
+        optional: true
+        booster: true
+    }
 }
 
 research: {
