@@ -1,1 +1,20 @@
+type: Duct
+name: Nickel Duct
+description: tests
+category: distribution
+speed: 4
+health: 45
+bridgeReplacement: nickel-bridge
+junctionReplacement: nickel-junc
 
+requirements: [
+    nickel/1
+]
+
+research: {
+    parent: core-claron
+}
+
+researchCost: [
+    nickel/10
+]

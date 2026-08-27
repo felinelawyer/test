@@ -1,9 +1,10 @@
 type: item
 name: Nickel
+description: limestone ore
 flammability: 0
 explosiveness: 0
 radioactivity: 0
-charge: 0.25
+charge: 0.20
 color: FFFAB5FF
 
 research: {
@@ -12,4 +13,4 @@ research: {
     nickel
   ]
 }
-shownPlanets: [serpulo]
+shownPlanets: [test]

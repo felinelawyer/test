@@ -1,0 +1,18 @@
+type: OverflowDuct
+name: Underflow Duct
+description: oooo
+category: distribution
+health: 50
+invert: true
+
+requirements: [
+    nickel/6
+]
+
+research: {
+    parent: nickel-duct-router
+}
+
+researchCost: [
+    nickel/30
+]

@@ -1,0 +1,17 @@
+type: OverflowDuct
+name: Overflow Duct
+description: stall
+category: distribution
+health: 50
+
+requirements: [
+    nickel/6
+]
+
+research: {
+    parent: nickel-duct-router
+}
+
+researchCost: [
+    nickel/30
+]
