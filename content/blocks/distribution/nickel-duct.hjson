@@ -2,7 +2,7 @@ type: Duct
 name: Nickel Duct
 description: tests
 category: distribution
-speed: 4
+speed: 480
 health: 45
 bridgeReplacement: nickel-duct-bridge
 junctionReplacement: nickel-junc
