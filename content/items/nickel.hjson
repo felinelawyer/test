@@ -1,10 +1,12 @@
 type: item
 name: Nickel
 description: limestone ore
+tier: 1
 flammability: 0
 explosiveness: 0
 radioactivity: 0
 charge: 0.20
+drillMultipliers: 1
 color: FFFAB5FF
 
 research: {

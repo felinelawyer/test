@@ -15,6 +15,7 @@ canmine: true
 buildSpeed: 0.7
 fogRadius: 30
 buildRange: 22
+mineTier: 2
 drownTimeMultiplier: 0.6
 lockLegBase: true
 hovering: true

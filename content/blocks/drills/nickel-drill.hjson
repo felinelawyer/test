@@ -1,0 +1,46 @@
+type: BurstDrill
+name: Nickel drill
+description: brrrr
+category: production
+squareSprite: false
+hasLiquids: true
+hasPower: false
+tier: 2
+shake: 1.7
+size: 3
+itemCapacity: 25
+drillTime: 360
+liquidBoostIntensity: 1.2
+rotateSpeed: 6
+
+drillEffect: [
+    {
+        type: WaveEffect
+        sizeFrom: 0.1
+        sizeTo: 12
+        strokeFrom: 1.8
+        strokeTo: 0.15
+        colorFrom: cccccc
+        colorTo: ffffff
+        lifetime: 30
+    }
+    {type: mineImpact}
+    {type: mineImpactSteam}
+    {type: drillSteam}
+]
+
+requirements: [
+    nickel/35
+]
+
+consumes: {
+    liquid: name-water/15
+    }
+
+research: {
+    parent: core-claron
+}
+
+researchCost: [
+    nickel/60
+]
