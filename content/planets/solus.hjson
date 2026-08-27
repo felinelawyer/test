@@ -23,6 +23,6 @@ orbitSpacing: 18
 solarSystem: solus
 orbitRadius: 10000
 drawOrbit: false
-tidalLock: true
+tidalLock: false
 iconColor: FF9400FF
 icon: commandRally
