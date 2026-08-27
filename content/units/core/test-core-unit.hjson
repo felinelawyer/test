@@ -9,9 +9,9 @@ stepSound: mechStepSmall
 legCount: 6
 armor: 2
 outlineColor: 10282CFF
-mineSpeed: 9
-mineRange: 60
-canmine: true
+mineSpeed: 7.5
+mineRange: 7.5
+canMine: true
 buildSpeed: 0.7
 fogRadius: 30
 buildRange: 22
@@ -27,14 +27,15 @@ legBaseOffset: 4
 legMaxLength: 1
 legMinLength: 0.2
 legSpeed: 0.20
-acceleration: 0.12
+acceleration: 0.15
 drag: 0.035
 legGroup: 3
 legPairOffset: 0.25
 legLengthScl: 0.6
 legWidthScl: 0.45
 legstraightness: 0.5
-emitWalkParticles: true
+emitWalkParticles: false
+
 shadowElevation: 0.1
 rotateSpeed: 4.5
 emitWalkSound: true
