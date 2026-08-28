@@ -12,7 +12,7 @@ solid: false
 
 requirements: [
     nickel/4
-    beryllium/6
+    jamberyllium/6
 ]
 
 research: {
