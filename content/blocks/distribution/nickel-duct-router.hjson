@@ -10,7 +10,8 @@ squareSprite: true
 regionRotated1: 1
 
 requirements: [
-    nickel/4
+    nickel/2
+    beryllium/2
 ]
 
 research: {
