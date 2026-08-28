@@ -1,0 +1,16 @@
+type: Liquid
+color: FFFFFFFF
+
+explosiveness: 0.05
+flammability: 0
+heatCapacity: 0.7
+viscosity: 0.05
+temperature: 0.7
+boilPoint: 2
+gasColor: FFFFFFFF
+gas: true
+blockReactive: false
+
+
+research: nickel
+shownPlanets: [test]
