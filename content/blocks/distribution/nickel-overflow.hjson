@@ -8,7 +8,7 @@ itemCapacity: 1
 
 requirements: [
     nickel/2
-    beryllium/4
+    jamberyllium/4
 ]
 
 research: {
@@ -16,5 +16,6 @@ research: {
 }
 
 researchCost: [
-    nickel/30
+    nickel/10
+    jamberyllium/20
 ]
