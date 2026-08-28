@@ -11,7 +11,7 @@ regionRotated1: 1
 
 requirements: [
     nickel/2
-    beryllium/2
+    jamberyllium/2
 ]
 
 research: {
@@ -19,5 +19,6 @@ research: {
 }
 
 researchCost: [
-    nickel/25
+    nickel/10
+    jamberyllium/15
 ]
