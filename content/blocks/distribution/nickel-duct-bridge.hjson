@@ -20,5 +20,6 @@ research: {
 }
 
 researchCost: [
-    nickel/40
+    nickel/20
+    jamberyllium/30
 ]
