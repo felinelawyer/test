@@ -11,7 +11,8 @@ size: 1
 solid: false
 
 requirements: [
-    nickel/8
+    nickel/4
+    beryllium/6
 ]
 
 research: {
