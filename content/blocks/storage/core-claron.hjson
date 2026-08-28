@@ -4,7 +4,7 @@ description: still testing
 
 requirements:[
     nickel/600
-    beryllium/800
+    jamberyllium/800
 ]
 alwaysUnlocked: true
 unitType: test-core-unit
