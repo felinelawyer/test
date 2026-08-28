@@ -3,7 +3,8 @@ name: Core: Claron
 description: still testing
 
 requirements:[
-  nickel/700
+    nickel/600
+    beryllium/800
 ]
 alwaysUnlocked: true
 unitType: test-core-unit
