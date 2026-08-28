@@ -8,7 +8,8 @@ size: 1
 speed: 8
 
 requirements: [
-    nickel/2
+    nickel/1
+    beryllium/1
 ]
 research: {
     parent: nickel-duct
