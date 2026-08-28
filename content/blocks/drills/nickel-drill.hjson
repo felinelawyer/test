@@ -37,7 +37,8 @@ drillEffect: [
 ]
 
 requirements: [
-    nickel/35
+    nickel/15
+    beryllium/20
 ]
 
 consumes: {
