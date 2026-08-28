@@ -49,6 +49,19 @@ consumes: {
     }
 }
 
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -arrow
+    }
+    {
+      type: DrawDefault
+    } 
+  ]
+}
+
 research: {
     parent: core-claron
 }
