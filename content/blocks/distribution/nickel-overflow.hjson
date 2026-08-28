@@ -7,7 +7,8 @@ speed: 7.5
 itemCapacity: 1
 
 requirements: [
-    nickel/6
+    nickel/2
+    beryllium/4
 ]
 
 research: {
