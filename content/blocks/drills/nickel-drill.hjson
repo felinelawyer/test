@@ -38,7 +38,7 @@ drillEffect: [
 
 requirements: [
     nickel/15
-    beryllium/20
+    jamberyllium/20
 ]
 
 consumes: {
@@ -55,5 +55,6 @@ research: {
 }
 
 researchCost: [
-    nickel/60
+    nickel/20
+    jamberyllium/60
 ]
