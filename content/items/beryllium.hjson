@@ -1,0 +1,18 @@
+type: item
+name: Beryllium
+description: it doesnt have to be green
+tier: 1
+flammability: 0
+explosiveness: 0
+radioactivity: 0
+charge: 0.15
+drillMultipliers: 1
+color: 8FA392
+
+research: {
+  parent: core-claron
+  objectives: [
+    beryllium
+  ]
+}
+shownPlanets: [test]
