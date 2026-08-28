@@ -10,7 +10,7 @@ legCount: 6
 armor: 2
 outlineColor: 10282CFF
 mineSpeed: 7.5
-mineRange: 8
+Range: 8
 canMine: true
 buildSpeed: 0.7
 fogRadius: 30
@@ -35,6 +35,8 @@ legLengthScl: 0.6
 legWidthScl: 0.45
 legstraightness: 0.5
 emitWalkParticles: false
+targetAir: false
+targetGround: false
 
 shadowElevation: 0.1
 rotateSpeed: 4.5
