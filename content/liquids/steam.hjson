@@ -12,5 +12,10 @@ gas: true
 blockReactive: false
 
 
-research: nickel
+research: {
+    parent: nickel
+    objectives: [
+        steam
+    ]
+}
 shownPlanets: [test]
