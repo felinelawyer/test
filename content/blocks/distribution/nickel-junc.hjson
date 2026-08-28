@@ -9,12 +9,13 @@ speed: 8
 
 requirements: [
     nickel/1
-    beryllium/1
+    jamberyllium/1
 ]
 research: {
     parent: nickel-duct
 }
 
 researchCost: [
-    nickel/20
+    nickel/10
+    jamberyllium/10
 ]
