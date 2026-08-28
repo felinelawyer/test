@@ -8,7 +8,8 @@ itemCapacity: 1
 invert: true
 
 requirements: [
-    nickel/6
+    nickel/2
+    beryllium/4
 ]
 
 research: {
