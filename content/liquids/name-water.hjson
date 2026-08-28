@@ -11,3 +11,11 @@ temperature: 0.1
 heatCapacity: 0.2
 viscosity: 0.6
 blockReactive: false
+
+research: {
+    parent: steam
+    objectives: [
+        name-water
+    ]
+}
+shownPlanets: [test]
