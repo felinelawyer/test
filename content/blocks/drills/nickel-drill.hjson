@@ -10,7 +10,7 @@ shake: 1.7
 size: 3
 itemCapacity: 25
 drillTime: 360
-liquidBoostIntensity: 1.2
+liquidBoostIntensity: 1.0
 liquidCapacity: 75
 rotateSpeed: 6
 
@@ -47,19 +47,6 @@ consumes: {
         optional: true
         booster: true
     }
-}
-
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -arrow
-    }
-    {
-      type: DrawDefault
-    } 
-  ]
 }
 
 research: {
