@@ -19,7 +19,6 @@ hasPower: true
 
 outputLiquids: [
     steam/0.016
-    
 ]
 
 requirements: [
@@ -27,11 +26,8 @@ requirements: [
     jamberyllium/25
 ]
 
-
 ambientSound: loopHum
 ambientSoundVolume: 0.05
-
-
 
 research: {
     parent: core-caspar
