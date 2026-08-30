@@ -32,5 +32,7 @@ ambientSoundVolume: 0.05
 research: {
     parent: core-caspar
 researchCost: [
-    efscrap/10
-] 
+    nickel/10
+    jamberyllium/15
+    ] 
+}
