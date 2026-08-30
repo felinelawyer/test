@@ -15,7 +15,7 @@ hasLiquids: true
 hasPower: true
 
 
-outputLiquid: steam/0.0444444444
+outputLiquid: steam/0.037037037
 
 
 requirements: [
