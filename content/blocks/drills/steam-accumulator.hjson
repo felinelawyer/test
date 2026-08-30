@@ -2,6 +2,7 @@ type: ThermalGenerator
 name: Steam Accumulator
 description: prison to hold
 size: 3
+liquidCapacity: 30
 attribute: steam
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
