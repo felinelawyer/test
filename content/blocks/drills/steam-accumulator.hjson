@@ -19,11 +19,13 @@ hasPower: true
 
 
 outputLiquids: [
-    steam/0.016
-    name-water/0.008
+    steam/0.008
+    name-water/0.004
+    steam/0.008
+    name-water/0.004
 ]
 
-liquidOutputDirections: [1,3]
+liquidOutputDirections: [1,2,3,4]
 
 requirements: [
     nickel/15
