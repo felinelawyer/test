@@ -21,7 +21,7 @@ outputLiquids: [
     name-water/0.008
 ]
 
-liquidOutputDirections[2]
+liquidOutputDirections {2}
 
 requirements: [
     nickel/15
