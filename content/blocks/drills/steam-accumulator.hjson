@@ -16,7 +16,7 @@ hasLiquids: true
 hasPower: true
 
 
-outputLiquid: [
+outputLiquids: [
     steam/0.016
     name-water/0.008
 ]
