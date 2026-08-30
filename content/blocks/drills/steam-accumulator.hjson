@@ -2,13 +2,13 @@ type: ThermalGenerator
 name: Steam Accumulator
 description: prison to hold
 size: 3
-liquidCapacity: 30
+liquidCapacity: 36
 attribute: steam
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
 powerProduction: 0.0462962963
-effectgenerate: turbinegenerae
+effectgenerate: turbinegenerate
 effectChance: 0.15
 squareSprite: false
 category: production
@@ -16,12 +16,16 @@ hasLiquids: true
 hasPower: true
 
 
-outputLiquid: steam/0.037037037
+outputLiquid: [
+    steam/0.016
+    name-water/0.008
+]
 
+liquidOutputDirections: [1,3,2,4]
 
 requirements: [
-    nickel/20
-    jamberyllium/30
+    nickel/15
+    jamberyllium/25
 ]
 
 
