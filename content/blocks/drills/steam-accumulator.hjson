@@ -1,0 +1,36 @@
+type: ThermalGenerator
+name: Steam Accumulator
+description: prison to hold
+size: 3
+attribute: steam
+displayEfficiencyScale: 0.11111111111
+displayEfficiency: false
+minEfficiency: 8
+powerProduction: 0,416666667
+generateEffect: turbinegenerate
+effectChance: 0.15
+squareSprite: false
+category: production
+hasLiquids: true
+hasPower: true
+
+
+outputLiquid: steam/20
+
+
+requirements: [
+    nickel/20
+    jamberyllium/30
+]
+
+
+ambientSound: loopHum
+ambientSoundVolume: 0.05
+
+
+
+research: {
+    parent: core-caspar
+researchCost: [
+    efscrap/10
+] 
