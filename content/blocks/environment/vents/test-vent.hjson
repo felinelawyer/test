@@ -1,6 +1,7 @@
 name: testvent
 type: SteamVent
 blendGroup: test-tile
+inEditor: true
 parent: test-tile
 attribute: venter
 attributes: {
