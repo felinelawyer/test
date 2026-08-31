@@ -3,7 +3,7 @@ type: SteamVent
 blendGroup: test-tile
 parent: test-tile
 attributes: {
-   steam: 1
+   vent
 }
 
 
