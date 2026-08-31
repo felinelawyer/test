@@ -5,7 +5,7 @@ inEditor: true
 parent: test-tile
 attribute: venter
 attributes: {
-    steam: 1
+    venter: 0.111111111112
 }
 
 
