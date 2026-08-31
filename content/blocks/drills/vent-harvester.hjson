@@ -10,7 +10,6 @@ minEfficiency: 1
 maxBoost: 1
 ignoreLiquidFullness: true
 displayEfficiency: false
-minEfficiency: 8
 effectgenerate: turbinegenerate
 effectChance: 0.15
 squareSprite: false
