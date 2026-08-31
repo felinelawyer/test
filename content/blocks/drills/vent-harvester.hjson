@@ -8,8 +8,6 @@ baseEfficiency: 0
 minEfficiency: 1
 maxBoost: 1
 displayEfficiency: false
-effectgenerate: turbinegenerate
-effectChance: 0.08
 squareSprite: false
 category: production
 hasLiquids: true
@@ -56,3 +54,15 @@ researchCost: [
     jamberyllium/15
     ] 
 }
+
+ventEffect: [
+    {
+        type: WaveEffect
+        sizeFrom: 0.1
+        sizeTo: 12
+        strokeFrom: 1.8
+        strokeTo: 0.15
+        colorFrom: ccccccff
+        colorTo: ffffff00
+        lifetime: 30
+    }
