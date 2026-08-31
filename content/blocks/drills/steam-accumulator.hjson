@@ -7,7 +7,7 @@ attribute: steam
 displayEfficiencyScale: 0.11111111111
 displayEfficiency: false
 minEfficiency: 8
-powerProduction: 0.046296297
+powerProduction: 0.0462963
 effectgenerate: turbinegenerate
 effectChance: 0.15
 squareSprite: false
@@ -15,7 +15,11 @@ category: production
 hasLiquids: true
 hasPower: true
 
-outputLiquid: steam/0.016
+outputLiquids: 
+    steam/0.016,
+    name-water/0.008
+
+liquidOutputDirections: [1,3,2,4]
 
 requirements: [
     nickel/15
