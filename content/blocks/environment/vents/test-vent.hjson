@@ -22,7 +22,7 @@ effect:{
             sizeFrom: 3
             sizeTo: 8
             colorFrom: FFFFFF80
-            colorTo: FFFFFF80
+            colorTo: FFFFFF00
             layer: 61.8
             cone: 45
             baseRotation: 30
