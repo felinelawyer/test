@@ -18,8 +18,8 @@ dumpExtraLiquid: true
 rotate: true
 
 outputLiquids: [
-    steam/0.016
-    name-water/0.008
+    steam/0.1
+    name-water/0.05
 ]
 
 liquidOutputDirections: [1,3]
