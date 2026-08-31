@@ -1,4 +1,4 @@
-type: ThermalGenerator
+type: MultiCrafter
 name: Vent Harvester
 description: prison to hold
 size: 3
