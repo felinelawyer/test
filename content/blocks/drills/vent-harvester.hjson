@@ -3,12 +3,10 @@ name: Vent Harvester
 description: prison to hold
 attribute: venter
 size: 3
-craftTime: 6
 liquidCapacity: 36
 baseEfficiency: 0
 minEfficiency: 1
 maxBoost: 1
-ignoreLiquidFullness: true
 displayEfficiency: false
 effectgenerate: turbinegenerate
 effectChance: 0.15
@@ -33,7 +31,7 @@ jsonRecipes: [
         name: waterrecipe
         localizedName: Water
         output: {
-            liquids: [water/0.0555555557]
+            liquids: [water/0.166666667]
             power: 0.5
         }
     }
