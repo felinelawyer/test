@@ -15,9 +15,10 @@ category: production
 hasLiquids: true
 hasPower: true
 
-outputLiquids: 
+outputLiquids: [
     steam/0.016,
     name-water/0.008
+]
 
 liquidOutputDirections: [1,3,2,4]
 
