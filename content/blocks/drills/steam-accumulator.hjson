@@ -17,7 +17,7 @@ category: production
 hasLiquids: true
 hasPower: true
 
-outputLiquids: [
+outputLiquid: [
     steam/0.016
 ]
 
