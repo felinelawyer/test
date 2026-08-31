@@ -9,7 +9,7 @@ minEfficiency: 1
 maxBoost: 1
 displayEfficiency: false
 effectgenerate: turbinegenerate
-effectChance: 0.15
+effectChance: 0.08
 squareSprite: false
 category: production
 hasLiquids: true
@@ -35,7 +35,7 @@ jsonRecipes: [
         localizedName: Water
         input: {power: 0.1}
         output: {
-            liquids: [water/0.15]
+            liquids: [name-water/0.15]
             power: 0.6
         }
     }
