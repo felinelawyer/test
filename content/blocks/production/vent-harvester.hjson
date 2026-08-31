@@ -7,7 +7,6 @@ attribute: steam
 displayEfficiencyScale: 0.11111111112
 displayEfficiency: false
 minEfficiency: 8
-powerProduction: 0.0462963
 effectgenerate: turbinegenerate
 effectChance: 0.15
 squareSprite: false
@@ -21,7 +20,7 @@ jsonRecipes: [
         name: steamrecipe
         localizedName: Steam
         output: {
-            items: [steam/0.15]
+            liquids: [steam/0.15]
             power: 0.5
         }
     }
@@ -29,7 +28,7 @@ jsonRecipes: [
         name: waterrecipe
         localizedName: Water
         output: {
-            items: [water/0.3333333333333334]
+            liquids: [water/0.3333333333333334]
             power: 0.5
         }
     }
