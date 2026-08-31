@@ -1,6 +1,6 @@
 type: Floor
 name: ultrakill power
-variants: 3
+variants: 1
 attributes: {
-	carbon: 0.25
+	carbon: 1
 }
