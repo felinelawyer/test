@@ -17,8 +17,7 @@ hasPower: true
 dumpExtraLiquid: true
 rotate: true
 
-outputLiquid: name-water/0.05
-outputLiquid: steam/0.1
+outputLiquid: name-water/0.05, steam/0.1
 
 liquidOutputDirections: [1,3]
 
