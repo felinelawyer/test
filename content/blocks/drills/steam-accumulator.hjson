@@ -15,9 +15,7 @@ category: production
 hasLiquids: true
 hasPower: true
 
-outputLiquid: [
-    steam/0.016
-]
+outputLiquid: steam/0.016
 
 requirements: [
     nickel/15
