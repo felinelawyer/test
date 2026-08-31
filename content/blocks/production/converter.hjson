@@ -1,0 +1,28 @@
+type: multiCrafter
+name: hideous mass mk10
+description: war without treachery
+size: 2
+catagory: crafting
+craftTime:6
+hasItems: false
+hasLiquids: true
+hasPower: true
+liquidCapacity: 36
+
+jsonRecipes:[
+    {
+        name: steamerrecipe
+        localizedName: Steam
+        input: {
+            power: 0.25
+            liquids:[water/0.9]}
+        output: {
+            liquids:[steam/0.9]}}
+    {
+        name:watererrecipe
+        localizedName: Water
+        input: {
+            power: 0.25
+            liquids:[steam/0.9]}
+        output: {
+            liquids:[water/0.9]}}]
