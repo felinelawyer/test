@@ -1,0 +1,43 @@
+name: testvent
+type: SteamVent
+blendGroup: null
+parent: null
+attributes: {
+   steam: 1
+}
+
+
+effectSpacing: 20
+effect:{
+    type: MultiEffect
+    effects: [
+        {
+            type: ParticleEffect
+            lifetime: 160
+            sizeInterp: slope
+            length: 45
+            baseLength: 4
+            sizeFrom: 3
+            sizeTo: 8
+            colorFrom: FFFFFF80
+            colorTo: FFFFFF80
+            layer: 61.8
+            cone: 45
+            baseRotation: 30
+        }
+        {
+            type: ParticleEffect
+            lifetime: 100
+            sizeInterp: slope
+            length: 45
+            baseLength: 4
+            sizeFrom: 2
+            sizeTo: 7
+            colorFrom: FFFFFF80
+            colorTo: FFFFFF00
+            layer: 61.9
+            cone: 35
+            baseRotation: 30
+        }
+    ]
+}
