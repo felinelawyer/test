@@ -1,4 +1,4 @@
-type: MultiCrafter
+type: AttributeCrafter
 name: Vent Harvester
 description: prison to hold
 attribute: venter
