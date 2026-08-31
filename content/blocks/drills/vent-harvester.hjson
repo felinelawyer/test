@@ -24,7 +24,7 @@ jsonRecipes: [
         name: steamrecipe
         localizedName: Steam
         output: {
-            liquids: [steam/0.9]
+            liquids: [steam/0.015]
             power: 0.5
         }
     }
@@ -33,7 +33,7 @@ jsonRecipes: [
         name: waterrecipe
         localizedName: Water
         output: {
-            liquids: [water/0.3333333333333334]
+            liquids: [water/0.0555555557]
             power: 0.5
         }
     }
