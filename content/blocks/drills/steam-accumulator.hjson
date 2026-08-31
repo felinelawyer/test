@@ -26,7 +26,7 @@ ambientSound: loopHum
 ambientSoundVolume: 0.05
 
 research: {
-    parent: core-caspar
+    parent: core-claron
 researchCost: [
     nickel/10
     jamberyllium/15
