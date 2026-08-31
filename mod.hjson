@@ -4,7 +4,5 @@ author: jam
 description: "ooo"
 version: "test"
 minGameVersion: "159.7"
-dependencies: [
-    multicrafter
-]
+dependencies: ["multicrafter"]
 hidden: false
