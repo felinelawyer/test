@@ -20,6 +20,7 @@ dumpExtraLiquid: true
 
 jsonRecipes: [
     {
+        craftTime: 6
         name: steamrecipe
         localizedName: Steam
         output: {
@@ -28,6 +29,7 @@ jsonRecipes: [
         }
     }
     {
+        craftTime: 6
         name: waterrecipe
         localizedName: Water
         output: {
