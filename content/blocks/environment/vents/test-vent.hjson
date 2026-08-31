@@ -2,9 +2,7 @@ name: testvent
 type: SteamVent
 blendGroup: test-tile
 parent: test-tile
-attributes: {
-   vent
-}
+attributes: vent
 
 
 effectSpacing: 20
