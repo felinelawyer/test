@@ -21,8 +21,8 @@ drillEffect: [
         sizeTo: 12
         strokeFrom: 1.8
         strokeTo: 0.15
-        colorFrom: cccccc
-        colorTo: ffffff
+        colorFrom: ccccccff
+        colorTo: ffffff00
         lifetime: 30
     }
     {
