@@ -1,4 +1,4 @@
-type: MultiCrafter
+type: AttributeMultiCrafter
 name: Vent Harvester
 description: prison to hold
 attribute: venter
@@ -24,7 +24,7 @@ jsonRecipes: [
         name: steamrecipe
         localizedName: Steam
         output: {
-            liquids: [steam/0.015]
+            liquids: [steam/0.15]
             power: 0.5
         }
     }
