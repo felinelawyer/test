@@ -1,7 +1,7 @@
 type: MultiCrafter
 name: Vent Harvester
 description: prison to hold
-attribute: vent
+attribute: venter
 size: 3
 craftTime: 6
 liquidCapacity: 36
