@@ -1,10 +1,10 @@
 type: ThermalGenerator
-name: Steam Accumulator
+name: Vent Harvester
 description: prison to hold
 size: 3
 liquidCapacity: 36
 attribute: steam
-displayEfficiencyScale: 0.11111111111
+displayEfficiencyScale: 0.11111111112
 displayEfficiency: false
 minEfficiency: 8
 powerProduction: 0.0462963
@@ -15,11 +15,25 @@ category: production
 hasLiquids: true
 hasPower: true
 dumpExtraLiquid: true
-rotate: true
 
-outputLiquid: name-water/0.05
-
-liquidOutputDirections: [2]
+jsonRecipes: [
+    {
+        name: steamrecipe
+        localizedName: Steam
+        output: {
+            items: [steam/0.15]
+            power: 0.5
+        }
+    }
+    {
+        name: waterrecipe
+        localizedName: Water
+        output: {
+            items: [water/0.3333333333333334]
+            power: 0.5
+        }
+    }
+]
 
 requirements: [
     nickel/15
