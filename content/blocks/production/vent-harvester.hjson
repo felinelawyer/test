@@ -4,7 +4,10 @@ description: prison to hold
 size: 3
 craftTime: 6
 liquidCapacity: 36
-attribute: steam
+baseEfficiency: 0
+minEfficiency: 1
+maxBoost: 1
+ignoreLiquidFullness: true
 displayEfficiencyScale: 0.11111111112
 displayEfficiency: false
 minEfficiency: 8
