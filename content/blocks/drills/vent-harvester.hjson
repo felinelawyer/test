@@ -54,15 +54,3 @@ researchCost: [
     jamberyllium/15
     ] 
 }
-
-ventEffect: [
-    {
-        type: WaveEffect
-        sizeFrom: 0.1
-        sizeTo: 12
-        strokeFrom: 1.8
-        strokeTo: 0.15
-        colorFrom: ccccccff
-        colorTo: ffffff00
-        lifetime: 30
-    }
