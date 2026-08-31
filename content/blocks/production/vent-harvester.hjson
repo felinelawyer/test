@@ -2,6 +2,7 @@ type: MultiCrafter
 name: Vent Harvester
 description: prison to hold
 size: 3
+craftTime: 6
 liquidCapacity: 36
 attribute: steam
 displayEfficiencyScale: 0.11111111112
@@ -20,7 +21,7 @@ jsonRecipes: [
         name: steamrecipe
         localizedName: Steam
         output: {
-            liquids: [steam/0.15]
+            liquids: [steam/0.9]
             power: 0.5
         }
     }
