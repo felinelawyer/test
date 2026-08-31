@@ -1,7 +1,7 @@
 name: testvent
 type: SteamVent
-blendGroup: null
-parent: null
+blendGroup: test-tile
+parent: test-tile
 attributes: {
    steam: 1
 }
