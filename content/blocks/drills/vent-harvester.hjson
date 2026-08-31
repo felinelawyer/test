@@ -20,6 +20,7 @@ jsonRecipes: [
     {
         craftTime: 6
         name: steamrecipe
+        alwaysUnlocked: true
         localizedName: Steam
         output: {
             liquids: [steam/0.15]
@@ -29,6 +30,7 @@ jsonRecipes: [
     {
         craftTime: 6
         name: waterrecipe
+        alwaysUnlocked: true
         localizedName: Water
         output: {
             liquids: [water/0.166666667]
