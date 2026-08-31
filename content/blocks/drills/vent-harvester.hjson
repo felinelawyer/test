@@ -22,9 +22,10 @@ jsonRecipes: [
         name: steamrecipe
         alwaysUnlocked: true
         localizedName: Steam
+        input: {power: 0.1}
         output: {
             liquids: [steam/0.15]
-            power: 0.5
+            power: 0.6
         }
     }
     {
@@ -32,9 +33,10 @@ jsonRecipes: [
         name: waterrecipe
         alwaysUnlocked: true
         localizedName: Water
+        input: {power: 0.1}
         output: {
-            liquids: [water/0.166666667]
-            power: 0.5
+            liquids: [water/0.15]
+            power: 0.6
         }
     }
 ]
