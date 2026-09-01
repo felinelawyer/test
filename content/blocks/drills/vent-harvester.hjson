@@ -7,7 +7,7 @@ liquidCapacity: 36
 baseEfficiency: 0
 minEfficiency: 1
 maxBoost: 1
-powerProdiction: 0.1
+powerProduction: 0.1
 displayEfficiency: false
 squareSprite: false
 category: production
