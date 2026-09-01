@@ -4,7 +4,6 @@ description: war without treachery
 size: 2
 category: production
 inEditor: true
-craftTime:6
 hasItems: false
 hasLiquids: true
 hasPower: true
@@ -14,6 +13,7 @@ jsonRecipes:[
     {
         name: steamerrecipe
         localizedName: Steam
+        craftTime: 6
         input: {
             power: 0.25
             liquids:[water/0.9]}
@@ -22,6 +22,7 @@ jsonRecipes:[
     {
         name:watererrecipe
         localizedName: Water
+        craftTime: 6
         input: {
             power: 0.25
             liquids:[steam/0.9]}
