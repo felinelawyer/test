@@ -29,10 +29,9 @@ jsonRecipes:[
         output: {
             liquids:[water/0.9]}}]
 
-research: {
-    parent: core-claron
+research: {parent: core-claron}
 researchCost: [
     nickel/15
     jamberyllium/20
 ]
-}
+
