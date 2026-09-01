@@ -19,3 +19,4 @@ research: {
 researchCost: [
     nickel/10
 ]
+shownPlanets: [test]
