@@ -42,7 +42,7 @@ requirements: [
 ]
 
 consumes: {
-    liquid: name-water/0.25
+    liquid: name-water/0.1
     liquids: {
         liquids: []
         optional: true
