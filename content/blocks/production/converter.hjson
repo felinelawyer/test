@@ -31,8 +31,8 @@ jsonRecipes:[
 
 research: {
     parent: core-claron
-}
 researchCost: [
     nickel/15
     jamberyllium/20
 ]
+}
