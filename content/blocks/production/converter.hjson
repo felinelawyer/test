@@ -32,7 +32,7 @@ jsonRecipes:[
 research: {
     parent: core-claron
 }
-researchCost: [
+researchCost: {[
     nickel/15
     jamberyllium/20
-]
+]}
