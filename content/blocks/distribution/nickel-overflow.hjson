@@ -19,3 +19,4 @@ researchCost: [
     nickel/10
     jamberyllium/20
 ]
+shownPlanets: [test]
