@@ -14,9 +14,6 @@ conductivePower: true
 consumesPower: true
 outputsPower: true
 laserWidth: 0.7
-laserColor1: blue
-laserColor2: white
-
 consumes: powerBuffered: 10
 
 requirements: [
