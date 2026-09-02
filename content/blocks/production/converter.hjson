@@ -16,9 +16,9 @@ jsonRecipes:[
         craftTime: 6
         input: {
             power: 0.25
-            liquids:[water/0.9]}
+            liquids:[name-water/0.15]}
         output: {
-            liquids:[steam/0.9]}}
+            liquids:[steam/0.15]}}
     {
         name: watererrecipe
         alwaysUnlocked: true
@@ -26,9 +26,9 @@ jsonRecipes:[
         craftTime: 6
         input: {
             power: 0.25
-            liquids:[steam/0.9]}
+            liquids:[steam/0.15]}
         output: {
-            liquids:[water/0.9]}}
+            liquids:[name-water/0.15]}}
 ]
 
 requirements: [
