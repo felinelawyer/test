@@ -13,8 +13,9 @@ hasPower: true
 conductivePower: true
 consumesPower: true
 outputsPower: true
-laserWidth: 0.7
-consumes: powerBuffered: 10
+
+laserWidth: 0.6
+consumes: {powerBuffered: 10}
 
 requirements: [
     nickel/1
