@@ -1,0 +1,39 @@
+type: BeamNode
+name: Beryllium Node
+description: radiant mindflayer
+health: 50
+fogRadius: 2
+pulseScl: 0
+pulseMag: 0
+size: 1
+range: 5
+category: power
+squareSprite: false
+hasPower: true
+conductivePower: true
+consumesPower: true
+outputsPower: true
+laserWidth: 0.7
+laserColor1: blue
+laserColor2: white
+
+consumes: powerBuffered: 10
+
+requirements: [
+    nickel/1
+    jamberyllium/8
+]
+
+research: {
+    parent: core-claron
+    objectives: [
+        nickel
+        jamberyllium
+    ]
+}
+
+researchCost: [
+    nickel/2
+    jamberyllium/10
+]
+shownPlanets: [test]
