@@ -11,7 +11,7 @@ size: 3
 itemCapacity: 25
 drillTime: 360
 liquidBoostIntensity: 1.0
-liquidCapacity: 60
+liquidCapacity: 72
 rotateSpeed: 6
 
 drillEffect: [
@@ -52,10 +52,14 @@ consumes: {
 
 research: {
     parent: core-claron
+    objectives: [
+        nickel
+        jamberyllium
+    ]
 }
 
 researchCost: [
-    nickel/20
+    nickel/10
     jamberyllium/15
 ]
 shownPlanets: [test]

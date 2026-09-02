@@ -1,9 +1,8 @@
-type: multiCrafter
+type: MultiCrafter
 name: hideous mass mk10
 description: war without treachery
 size: 2
 category: production
-inEditor: true
 hasItems: false
 hasLiquids: true
 hasPower: true
@@ -20,17 +19,27 @@ jsonRecipes:[
         output: {
             liquids:[steam/0.9]}}
     {
-        name:watererrecipe
+        name: watererrecipe
         localizedName: Water
         craftTime: 6
         input: {
             power: 0.25
             liquids:[steam/0.9]}
         output: {
-            liquids:[water/0.9]}}]
+            liquids:[water/0.9]}}
+]
+
+requirements: [
+    nickel/20
+    jamberyllium/25
+]
 
 research: {
     parent: core-claron
+    objectives: [
+        nickel
+        jamberyllium
+    ]
 }
 researchCost: [
     nickel/15
