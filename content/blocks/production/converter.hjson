@@ -2,7 +2,7 @@ type: MultiCrafter
 name: hideous mass mk10
 description: war without treachery
 size: 2
-category: production
+category: crafting
 hasItems: false
 hasLiquids: true
 hasPower: true
@@ -11,6 +11,7 @@ liquidCapacity: 36
 jsonRecipes:[
     {
         name: steamerrecipe
+        alwaysUnlocked: true
         localizedName: Steam
         craftTime: 6
         input: {
@@ -20,6 +21,7 @@ jsonRecipes:[
             liquids:[steam/0.9]}}
     {
         name: watererrecipe
+        alwaysUnlocked: true
         localizedName: Water
         craftTime: 6
         input: {
