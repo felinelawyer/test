@@ -10,7 +10,7 @@ hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
-outputLiquid: [steam/0.3]
+outputLiquid: steam/0.3
 powerProduction: 1
 
 requirements: [
