@@ -1,7 +1,7 @@
 type: AttributeMultiCrafter
 name: Vent Harvester
 description: prison to hold
-attribute: steam
+attribute: venter
 size: 3
 health: 100
 liquidCapacity: 36
