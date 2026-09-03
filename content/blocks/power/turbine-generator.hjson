@@ -22,8 +22,6 @@ requirements: [
     jamberyllium/20
 ]
 
-generateEffect: turbineGenerate
-effectChance: 0.12
 ambientSound: loopHum
 ambientSoundVolume: 0.1
 
