@@ -20,7 +20,7 @@ requirements: [
 ]
 
 ambientSound: loopHum
-ambientSoundVolume: 0.05
+ambientSoundVolume: 0.1
 
 research: {
     parent: core-claron
