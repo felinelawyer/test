@@ -3,9 +3,8 @@ type: SteamVent
 blendGroup: test-tile
 inEditor: true
 parent: test-tile
-attribute: venter
 attributes: {
-    venter: 0.111111111112
+    venter: 0.11111111112
 }
 
 

@@ -11,9 +11,9 @@ hasPower: true
 hasItems: false
 outputsPower: true
 outputLiquid: steam/0.3
-powerProduction: 1
-displayEfficiencyScale: 0.1111111111111111111111111111111111111112
-minEfficiency: 1
+powerProduction: 0.11111111112
+displayEfficiencyScale: 0.1111111112
+minEfficiency: 9
 displayEfficiency: false
 attribute: venter
 
