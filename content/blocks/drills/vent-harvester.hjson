@@ -41,17 +41,17 @@ jsonRecipes: [
 
 requirements: [
     nickel/15
-    jamberyllium/25
+    jamberyllium/30
 ]
 
 ambientSound: loopHum
 ambientSoundVolume: 0.05
 
 research: {
-    parent: core-claron
+    parent: turbine-generator
 researchCost: [
-    nickel/10
-    jamberyllium/15
+    nickel/20
+    jamberyllium/40
     ] 
 }
 shownPlanets: [test]
