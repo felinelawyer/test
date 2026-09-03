@@ -2,6 +2,7 @@ type: MultiCrafter
 name: hideous mass mk10
 description: war without treachery
 size: 2
+health: 80
 category: crafting
 hasItems: false
 hasLiquids: true

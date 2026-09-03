@@ -3,6 +3,7 @@ name: Vent Harvester
 description: prison to hold
 attribute: venter
 size: 3
+health: 100
 liquidCapacity: 36
 baseEfficiency: 0
 minEfficiency: 1

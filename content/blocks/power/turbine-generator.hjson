@@ -1,6 +1,7 @@
 type: TurbineGenerator
 name: Turbine Generator
 description: hafif yagmur
+health: 80
 category: power
 size: 3
 
