@@ -12,12 +12,18 @@ hasItems: false
 outputsPower: true
 outputLiquid: steam/0.3
 powerProduction: 1
+displayEfficiencyScale: 0.1111111111111111111111111111111111111112
+minEfficiency: 1
+displayEfficiency: false
+attribute: venter
 
 requirements: [
     nickel/15
     jamberyllium/20
 ]
 
+generateEffect: turbineGenerate
+effectChance: 0.12
 ambientSound: loopHum
 ambientSoundVolume: 0.1
 
