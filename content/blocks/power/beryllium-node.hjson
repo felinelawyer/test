@@ -13,8 +13,8 @@ hasPower: true
 conductivePower: true
 consumesPower: true
 outputsPower: true
-laserColor1: 8FCEFFFF
-laserColor2: BFE3FFFF
+laserColor1: 8FCEFF
+laserColor2: BFE3FF
 
 laserWidth: 0.6
 consumes: {powerBuffered: 10}
