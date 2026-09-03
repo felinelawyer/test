@@ -50,9 +50,10 @@ ambientSoundVolume: 0.05
 
 research: {
     parent: turbine-generator
+}
 researchCost: [
     nickel/20
     jamberyllium/40
     ] 
-}
+
 shownPlanets: [test]
