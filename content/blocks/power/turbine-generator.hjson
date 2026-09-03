@@ -4,6 +4,7 @@ description: hafif yagmur
 health: 80
 category: production
 size: 3
+attributes: steam
 
 liquidCapacity: 30
 hasLiquids: true
