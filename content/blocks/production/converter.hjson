@@ -15,7 +15,7 @@ jsonRecipes:[
         localizedName: Steam
         craftTime: 6
         input: {
-            power: 0.25
+            power: 0.3333333333333333333333333333333333333333333333333334
             liquids:[name-water/0.15]}
         output: {
             liquids:[steam/0.15]}}
@@ -25,7 +25,7 @@ jsonRecipes:[
         localizedName: Water
         craftTime: 6
         input: {
-            power: 0.25
+            power: 0.3333333333333333333333333333333333333333333333333334
             liquids:[steam/0.15]}
         output: {
             liquids:[name-water/0.15]}}

@@ -3,8 +3,8 @@ name: Beryllium Node
 description: radiant mindflayer
 health: 50
 fogRadius: 2
-pulseScl: 0.1
-pulseMag: 0.05
+pulseScl: 0
+pulseMag: 0
 laser: true
 laserEnd: true
 size: 1
@@ -15,8 +15,7 @@ hasPower: true
 conductivePower: true
 consumesPower: true
 outputsPower: true
-laserColor1: 8FCEFFFF
-laserColor2: BFE3FFFF
+
 
 laserWidth: 0.6
 consumes: {powerBuffered: 10}

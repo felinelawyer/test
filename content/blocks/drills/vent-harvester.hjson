@@ -7,7 +7,6 @@ liquidCapacity: 36
 baseEfficiency: 0
 minEfficiency: 1
 maxBoost: 1
-powerProduction: 0.1
 displayEfficiency: false
 squareSprite: false
 category: production
@@ -23,8 +22,8 @@ jsonRecipes: [
         localizedName: Steam
         input: {power: 0.1}
         output: {
-            liquids: [steam/0.15]
-            power: 0.6
+            liquids: [steam/0.45]
+            power: 0.35
         }
     }
     {
@@ -34,8 +33,8 @@ jsonRecipes: [
         localizedName: Water
         input: {power: 0.1}
         output: {
-            liquids: [name-water/0.15]
-            power: 0.6
+            liquids: [name-water/0.45]
+            power: 0.35
         }
     }
 ]
