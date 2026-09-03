@@ -11,7 +11,7 @@ hasPower: true
 hasItems: false
 outputsPower: true
 outputLiquid: steam/0.0333333333333333333334
-powerProduction: 0.11111111112
+powerProduction: 1
 displayEfficiencyScale: 1
 minEfficiency: 1
 displayEfficiency: false
