@@ -1,4 +1,4 @@
-type: ThermalGenerator
+type: TurbineCondenser
 name: Turbine Generator
 description: hafif yagmur
 health: 80
@@ -11,7 +11,7 @@ hasPower: true
 hasItems: false
 outputsPower: true
 outputLiquid: steam/0.0333333333333333333334
-powerProduction: 1
+powerProduction: 0.011111111111111
 displayEfficiencyScale: 0.011111111111
 displayEfficiency: false
 baseEfficiency: 0
