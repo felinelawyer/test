@@ -1,9 +1,10 @@
-type: TurbineCondenser
+type: AttributeCrafter
 name: Turbine Generator
 description: hafif yagmur
 health: 80
 category: production
 size: 3
+attribute: venter
 
 liquidCapacity: 30
 hasLiquids: true
