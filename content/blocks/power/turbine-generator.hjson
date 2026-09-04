@@ -12,13 +12,13 @@ hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
+displayEfficiencyScale: 1
 baseEfficiency: 0
+squareSprite: false
 minEfficiency: 1
-maxBoost: 1
 displayEfficiency: false
 outputLiquid: steam/0.0333333333333333333334
-powerProduction: 0.011111111111111
-displayEfficiencyScale: 0.011111111111
+powerProduction: 1
 boostScale: 0.1111111111111
 
 requirements: [
