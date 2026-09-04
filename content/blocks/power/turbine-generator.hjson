@@ -7,18 +7,19 @@ size: 3
 attribute: venter
 
 liquidCapacity: 30
+dumpExtraLiquid: true
 hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
+baseEfficiency: 0
+minEfficiency: 1
+maxBoost: 1
+displayEfficiency: false
 outputLiquid: steam/0.0333333333333333333334
 powerProduction: 0.011111111111111
 displayEfficiencyScale: 0.011111111111
-displayEfficiency: false
-baseEfficiency: 0
-boostScale: 0.111111111111
-maxBoost: 1
-minEfficiency: 8
+boostScale: 0.1111111111111
 
 requirements: [
     nickel/15
