@@ -2,7 +2,7 @@ type: ThermalGenerator
 name: Turbine Generator
 description: hafif yagmur
 health: 80
-category: production
+category: power
 size: 3
 
 liquidCapacity: 30
