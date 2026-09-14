@@ -4,7 +4,7 @@ description: hafif yagmur
 health: 80
 category: power
 size: 3
-attribute: venter
+attribute: steam
 liquidCapacity: 30
 hasLiquids: true
 hasPower: true
@@ -14,8 +14,8 @@ displayEfficiencyScale: 0.11111111111111111111111111111111111111
 squareSprite: false
 minEfficiency: 8
 displayEfficiency: false
-outputLiquid: steam/0.3
-powerProduction: 1
+outputLiquid: steam/0.0166666667
+powerProduction: 0.11111111111111111111111111111111111
 
 requirements: [
     nickel/15
