@@ -1,4 +1,4 @@
-type: TurbineGenerator
+type: ThermalGenerator
 name: Turbine Generator
 description: hafif yagmur
 health: 80
@@ -6,15 +6,13 @@ category: power
 size: 3
 attribute: venter
 liquidCapacity: 30
-dumpExtraLiquid: true
 hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
-displayEfficiencyScale: 1
-baseEfficiency: 0
+displayEfficiencyScale: 0.11111111111111111111111111111111111111
 squareSprite: false
-minEfficiency: 1
+minEfficiency: 8
 displayEfficiency: false
 outputLiquid: steam/0.3
 powerProduction: 1
