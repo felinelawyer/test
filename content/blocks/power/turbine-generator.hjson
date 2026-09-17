@@ -12,7 +12,7 @@ hasItems: false
 outputsPower: true
 displayEfficiencyScale: 1
 squareSprite: false
-minEfficiency: 9
+minEfficiency: 1
 displayEfficiency: false
 outputLiquid: steam/0.0277777779
 powerProduction: 0.11111111111111111111111111111111111
