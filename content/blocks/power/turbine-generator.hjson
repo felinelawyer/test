@@ -12,7 +12,7 @@ hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
-displayEfficiencyScale: 1
+displayEfficiencyScale: 0.111111111111112
 squareSprite: false
 minEfficiency: 1
 displayEfficiency: false
