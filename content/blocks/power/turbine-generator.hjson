@@ -10,12 +10,12 @@ hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
-displayEfficiencyScale: 1
+displayEfficiencyScale: 0
 squareSprite: false
 minEfficiency: 1
 displayEfficiency: false
 outputLiquid: steam/0.0277777779
-powerProduction: 0.1
+powerProduction: 1
 
 requirements: [
     nickel/15
