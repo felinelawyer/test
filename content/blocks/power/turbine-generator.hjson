@@ -4,13 +4,15 @@ description: hafif yagmur
 health: 80
 category: power
 size: 3
+generateEffect: turbinegenerate
 attribute: venter
+effectChance: 0.1
 liquidCapacity: 30
 hasLiquids: true
 hasPower: true
 hasItems: false
 outputsPower: true
-displayEfficiencyScale: 0
+displayEfficiencyScale: 1
 squareSprite: false
 minEfficiency: 1
 displayEfficiency: false
