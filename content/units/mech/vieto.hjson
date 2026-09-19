@@ -30,12 +30,11 @@ weapons: [
   }
   shootSound: shootArc
   bullet: {
-    circleShooter: true
     lightningLength: 13.4
     status: EMP
     type: LightningBulletType
     speed: 2
-    lifetime: 3
+    lifetime: 1.5
     damage: 10
     pierce: true
     pierceBuilding: true
