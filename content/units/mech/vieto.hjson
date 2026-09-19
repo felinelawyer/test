@@ -27,18 +27,19 @@ weapons: [
   mirror: true
   alternate: true
   shoot: {
-      type: ShootAlternate
+      type: ShootSpread
   }
 
   shootSound: shootArc
   bullet: {
     status: EMP
-    type: BasicBulletType
+    type: LightningBulletType
     speed: 9
     lifetime: 13
     damage: 15
     pierce: true
     pierceBuilding: true
+    lightningColor: 34df51ff
     hitColor: 34df51ff
     trailColor: 6cf589ff
     trailWidth: 0.7
