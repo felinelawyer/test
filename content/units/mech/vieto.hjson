@@ -21,7 +21,7 @@ weapons: [
   inaccuracy: 10
   velocityRnd: 0.3
   y: 0.5
-  reload: 45
+  reload: 15
   rotate: false
   mirror: true
   alternate: true
@@ -34,8 +34,8 @@ weapons: [
     status: EMP
     type: LightningBulletType
     speed: 5
-    lifetime: 8
-    damage: 15
+    lifetime: 5
+    damage: 10
     pierce: true
     pierceBuilding: true
     lightningColor: 34df51ff
@@ -51,19 +51,19 @@ weapons: [
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
-        colorFrom: 93ffa5ff
+        colorFrom: ceffd6ff
         colorTo: 34df5100
       }
       {  
         type: WaveEffect
         lifetime: 20
-        sizeFrom: 4
+        sizeFrom: 1
         sizeTo: 1
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
         colorFrom: 93ffa5ff
-        colorTo: 34df5100
+        colorTo: ffffff3d
       }
     ]
   }
