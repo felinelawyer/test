@@ -30,10 +30,9 @@ weapons: [
   }
   shootSound: shootArc
   bullet: {
-    lightningLength: 390
+    lightningLength: 6.7
     status: EMP
     type: LightningBulletType
-    spawnBulletRandomSpread: 100
     speed: 2
     lifetime: 3
     damage: 10
