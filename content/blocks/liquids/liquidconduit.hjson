@@ -11,7 +11,7 @@ health: 30
 leaks: true
 underBullets: true
 
-junctionReplacement: liquidjunc
+junctionReplacement: conduitjunction
 rotBridgeReplacement: liquidbridge
 
 research: core-claron
