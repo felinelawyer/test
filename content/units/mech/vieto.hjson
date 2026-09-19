@@ -30,6 +30,7 @@ weapons: [
   }
   shootSound: shootArc
   bullet: {
+    circleShooter: true
     lightningLength: 13.4
     status: EMP
     type: LightningBulletType

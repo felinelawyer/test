@@ -44,7 +44,6 @@ ammoTypes: {
     buildingDamageMultiplier: 0.2
     damage: 18
     width: 7
-	  sprite: large-orb
     height: 9.5
     shrinkX:0
 	  shrinkY:0
@@ -124,8 +123,8 @@ ammoTypes: {
     	interp:pow3Out
     	sizeChangeStart:5
     	length: 4
-    	sizeFrom: 0.5
-    	sizeTo: 1
+    	sizeFrom: 1
+    	sizeTo: 1.5
     	baseRotation:180
     	colorFrom: d6d18daa
     	colorTo: d6cf8d00
