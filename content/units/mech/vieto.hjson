@@ -34,7 +34,7 @@ weapons: [
     status: EMP
     type: LightningBulletType
     speed: 9
-    lifetime: 13
+    lifetime: 8
     damage: 15
     pierce: true
     pierceBuilding: true
