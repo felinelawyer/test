@@ -115,7 +115,7 @@ ammoTypes: {
       }
         {
     	type: ParticleEffect
-    	particles: 12
+    	particles: 60
     	lifetime: 1
     	layer: 100.4
     	cone: 120
