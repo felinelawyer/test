@@ -81,16 +81,27 @@ ammoTypes: {
     	particles: 7
     	lifetime: 72
     	layer: 100.4
-    	cone: 120
+    	cone: -120
     	interp:pow3Out
     	sizeChangeStart:48
     	length: 16
-    	sizeFrom: 1
-    	sizeTo: 2.5
+    	sizeFrom: 2
+    	sizeTo: 4
     	baseRotation:180
     	colorFrom: d6d18daa
     	colorTo: d6cf8d00
     }
+        {
+    	type: WaveEffect
+    	lifetime: 30
+    	layer: 100.4
+    	interp:pow3Out
+    	sizeFrom: 1
+    	sizeTo: 1.5
+    	baseRotation:180
+    	colorFrom: D6AF8D60
+    	colorTo: d6cf8d00
+      }
     ]
     trailEffect: [
       	{
@@ -112,7 +123,7 @@ ammoTypes: {
     	cone: 120
     	interp:pow3Out
     	sizeChangeStart:10
-    	length: 16
+    	length: 4
     	sizeFrom: 0.5
     	sizeTo: 1
     	baseRotation:180
