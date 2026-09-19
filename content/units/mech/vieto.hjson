@@ -32,7 +32,7 @@ weapons: [
   bullet: {
     status: EMP
     type: LightningBulletType
-    spawnBulletRandomSpread: 3
+    spawnBulletRandomSpread: 100
     speed: 2
     lifetime: 3
     damage: 10
@@ -46,8 +46,8 @@ weapons: [
     	  {  
         type: WaveEffect
         lifetime: 20
-        sizeFrom: 2.5
-        sizeTo: 1
+        sizeFrom: 1
+        sizeTo: 4
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
