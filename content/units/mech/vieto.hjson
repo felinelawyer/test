@@ -18,7 +18,7 @@ weapons: [
   name: idk
   recoil: 0.5
   shootCone: 30
-  inaccuracy: 15
+  inaccuracy: 10
   velocityRnd: 0.3
   y: 0.5
   reload: 45
@@ -33,7 +33,7 @@ weapons: [
   bullet: {
     status: EMP
     type: LightningBulletType
-    speed: 9
+    speed: 5
     lifetime: 8
     damage: 15
     pierce: true
@@ -42,18 +42,30 @@ weapons: [
     hitColor: 34df51ff
     collidesTeam: false
     hitSound: hitArc
-    smokeEffect: 
+    smokeEffect: [
     	  {  
         type: WaveEffect
-        lifetime: 60
-        sizeFrom: 24
+        lifetime: 20
+        sizeFrom: 4
         sizeTo: 1
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
-        colorFrom: 34df51ff
+        colorFrom: 93ffa5ff
         colorTo: 34df5100
       }
+      {  
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 4
+        sizeTo: 1
+        strokeFrom: 0.3
+        strokeTo: 3
+        followParent: true
+        colorFrom: 93ffa5ff
+        colorTo: 34df5100
+      }
+    ]
   }
   }
 ]
