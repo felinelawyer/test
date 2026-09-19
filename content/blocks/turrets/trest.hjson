@@ -81,7 +81,7 @@ ammoTypes: {
     	particles: 7
     	lifetime: 72
     	layer: 100.4
-    	cone: -120
+    	cone: 240
     	interp:pow3Out
     	sizeChangeStart:48
     	length: 16
@@ -118,11 +118,11 @@ ammoTypes: {
         {
     	type: ParticleEffect
     	particles: 4
-    	lifetime: 72
+    	lifetime: 15
     	layer: 100.4
     	cone: 120
     	interp:pow3Out
-    	sizeChangeStart:10
+    	sizeChangeStart:5
     	length: 4
     	sizeFrom: 0.5
     	sizeTo: 1
