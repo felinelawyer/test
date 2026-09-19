@@ -45,7 +45,6 @@ weapons: [
     backColor: 4be753ff
     hitColor: 34df51ff
     trailColor: 6cf589ff
-    hitPowerEffect: hitempspark
     trailWidth: 0.7
     trailInterval: 2
     trailEffect: {
