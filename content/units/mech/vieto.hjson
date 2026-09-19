@@ -3,7 +3,7 @@ name: Vieto
 description: true splendor
 speed: 1
 flying: false
-health: 500
+health: 250
 armor: 3
 hitSize: 10.25
 outlineColor: 181425FF
@@ -16,9 +16,9 @@ weapons: [
   top: false
   x: -6
   name: idk
-  recoil: 1.40
+  recoil: 0.5
   shootCone: 30
-  inaccuracy: 8
+  inaccuracy: 15
   velocityRnd: 0.3
   y: 0.5
   reload: 90
@@ -26,37 +26,27 @@ weapons: [
   mirror: true
   alternate: true
   shoot: {
-      type: ShootMulti
-      source: {
-      type: ShootPattern
-      shots: 2
-      }
-      dest: [
-          {
-          type: ShootPattern
-          shots: 3
-          shotDelay: 5
-          }
-  ]
+      type: ShootArcBulletType
+      arcDegrees: 30
+      arcVelocity: 0.5
   }
 
-  shootSound: shootDuo
+  shootSound: shootArc
   bullet: {
-    type: BasicBulletType
+    status: greenElecStatus
+    type: EmpBulletType
     speed: 9
     lifetime: 13
     damage: 15
     pierce: true
     pierceBuilding: true
-    pierceCap: 2
-    width: 7
-    height: 11
-    smokeEffect: shootSmokeSquare
-    backColor: d6b06aff
-    hitColor: DC913AFF
-    trailColor: DC913AFF
-    trailWidth: 0.8
-    trailLength: 8
+    width: 2
+    height: 1
+    backColor: 4be753ff
+    hitColor: 34df51ff
+    trailColor: 6cf589ff
+    hitPowerEffect: hitempspark
+    trailWidth: 0.7
     trailInterval: 2
     trailEffect: {
         type: ParticleEffect
@@ -67,12 +57,12 @@ weapons: [
         length: 1
         sizeFrom: 3
         sizeTo: 1
-        colorFrom: ff7f0780
-        colorTo: 6e491f00
+        colorFrom: 98e69eff
+        colorTo: 7ebe5200
     }
     
     collidesTeam: false
-    hitSound: none
+    hitSound: hitArc
   }
   }
 ]
