@@ -10,7 +10,6 @@ outlineColor: 181425FF
 mechLegColor: 181425FF
 stepSound: mechStepSmall
 drownTime: 240
-reloadTime: 45
 
 weapons: [
   {
@@ -22,7 +21,7 @@ weapons: [
   inaccuracy: 15
   velocityRnd: 0.3
   y: 0.5
-  reload: 90
+  reload: 45
   rotate: false
   mirror: true
   alternate: true
@@ -41,28 +40,23 @@ weapons: [
     pierceBuilding: true
     lightningColor: 34df51ff
     hitColor: 34df51ff
-    trailColor: 6cf589ff
-    trailWidth: 0.7
-    trailInterval: 2
-    trailEffect: {
-        type: ParticleEffect
-        startDelay:1
-        lifetime: 7
-        particles: 3
-        cone: -1
-        length: 1
-        sizeFrom: 1.5
-        sizeTo: 0.5
-        colorFrom: 98e69eff
-        colorTo: 7ebe5200
-    }
-    
     collidesTeam: false
     hitSound: hitArc
+    smokeEffect: 
+    	  {  
+        type: WaveEffect
+        lifetime: 60
+        sizeFrom: 24
+        sizeTo: 1
+        strokeFrom: 0.3
+        strokeTo: 3
+        followParent: true
+        colorFrom: 34df51ff
+        colorTo: 34df5100
+      }
   }
   }
 ]
-
 
 research: {
     parent: test-fabricator
