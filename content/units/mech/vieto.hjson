@@ -17,7 +17,7 @@ weapons: [
   x: -6
   name: idk
   recoil: 0.5
-  shootCone: 20
+  shootCone: 10
   inaccuracy: 10
   velocityRnd: 0.3
   y: 0.5
@@ -33,7 +33,7 @@ weapons: [
   bullet: {
     status: EMP
     type: LightningBulletType
-    speed: 4
+    speed: 2
     lifetime: 3
     damage: 10
     pierce: true
