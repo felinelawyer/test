@@ -86,7 +86,7 @@ ammoTypes: {
     	length: 16
     	sizeFrom: 2
     	sizeTo: 4
-    	baseRotation:180
+    	baseRotation:60
     	colorFrom: d6d18daa
     	colorTo: d6cf8d00
     }
@@ -96,8 +96,7 @@ ammoTypes: {
     	layer: 100.4
     	interp:pow3Out
     	sizeFrom: 1
-    	sizeTo: 1.5
-    	baseRotation:180
+    	sizeTo: 2.5
     	colorFrom: D6AF8D60
     	colorTo: d6cf8d00
       }
@@ -117,15 +116,15 @@ ammoTypes: {
         {
     	type: ParticleEffect
     	particles: 4
-    	lifetime: 15
+    	lifetime: 25
     	layer: 100.4
     	cone: 120
     	interp:pow3Out
     	sizeChangeStart:5
     	length: 4
-    	sizeFrom: 1
+    	sizeFrom: 0.5
     	sizeTo: 1.5
-    	baseRotation:180
+    	baseRotation:60
     	colorFrom: d6d18daa
     	colorTo: d6cf8d00
       }

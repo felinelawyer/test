@@ -20,14 +20,10 @@ weapons: [
   shootCone: 10
   inaccuracy: 5
   velocityRnd: 0.3
-  y: 0.5
   reload: 15
   rotate: false
   mirror: true
   alternate: true
-  shoot: {
-      type: ShootSpread
-  }
   shootSound: shootArc
   bullet: {
     lightningLength: 13.4
@@ -64,6 +60,20 @@ weapons: [
         followParent: true
         colorFrom: 93ffa5ff
         colorTo: ffffff3d
+      }
+      {
+    	type: ParticleEffect
+    	particles: 5
+    	lifetime: 20
+    	layer: 100.4
+    	cone: 360
+    	interp:pow3Out
+    	sizeChangeStart:5
+    	length: 3
+    	sizeFrom: 1
+    	sizeTo: 1.5
+    	colorFrom: a7ff9ce5
+    	colorTo: d6cf8d00
       }
     ]
   }
