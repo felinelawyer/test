@@ -38,6 +38,7 @@ weapons: [
     hitColor: 34df51ff
     collidesTeam: false
     hitSound: hitArc
+    shootEffect: none
     smokeEffect: [
     	  {  
         type: WaveEffect
@@ -70,8 +71,23 @@ weapons: [
     	interp:pow3Out
     	sizeChangeStart:5
     	length: 3
-    	sizeFrom: 1
-    	sizeTo: 1.5
+    	sizeFrom: 1.5
+    	sizeTo: 2.5
+    	colorFrom: a7ff9ce5
+    	colorTo: d6cf8d00
+      }
+      {
+    	type: ParticleEffect
+    	particles: 5
+    	lifetime: 20
+    	layer: 100.4
+    	cone: 120
+      baseRotation: 60
+    	interp:pow3Out
+    	sizeChangeStart:5
+    	length: 3
+    	sizeFrom: 1.5
+    	sizeTo: 2.5
     	colorFrom: a7ff9ce5
     	colorTo: d6cf8d00
       }
