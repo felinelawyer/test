@@ -33,7 +33,7 @@ weapons: [
 
   shootSound: shootArc
   bullet: {
-    status: greenElecStatus
+    status: EMP
     type: EmpBulletType
     speed: 9
     lifetime: 13
