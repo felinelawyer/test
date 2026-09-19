@@ -34,7 +34,7 @@ weapons: [
   shootSound: shootArc
   bullet: {
     status: EMP
-    type: EmpBulletType
+    type: ElectricBulletType
     speed: 9
     lifetime: 13
     damage: 15
@@ -49,7 +49,7 @@ weapons: [
     trailInterval: 2
     trailEffect: {
         type: ParticleEffect
-        startDelay:2
+        startDelay:0
         lifetime: 7
         particles: 1
         cone: 0
