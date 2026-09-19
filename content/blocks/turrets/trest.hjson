@@ -116,13 +116,13 @@ ammoTypes: {
         {
     	type: ParticleEffect
     	particles: 12
-    	lifetime: 10
+    	lifetime: 5
     	layer: 100.4
     	cone: 120
     	interp:pow3Out
     	sizeChangeStart:5
     	length: 1
-    	sizeFrom: 1.5
+    	sizeFrom: 2.5
     	sizeTo: 0.5
     	baseRotation:60
     	colorFrom: fff9aaff
