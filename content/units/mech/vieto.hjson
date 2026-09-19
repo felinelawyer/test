@@ -46,13 +46,13 @@ weapons: [
     trailInterval: 2
     trailEffect: {
         type: ParticleEffect
-        startDelay:2
+        startDelay:1
         lifetime: 7
-        particles: 1
-        cone: 0
+        particles: 3
+        cone: -1
         length: 1
-        sizeFrom: 3
-        sizeTo: 1
+        sizeFrom: 1.5
+        sizeTo: 0.5
         colorFrom: 98e69eff
         colorTo: 7ebe5200
     }
