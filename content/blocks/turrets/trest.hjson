@@ -76,26 +76,9 @@ ammoTypes: {
       }
     ]
 	  despawnEffect: [
-	    {
+        {
     	type: ParticleEffect
-    	particles: 6
-    	lifetime: 40
-    	layer: 100.4
-    	cone: 360
-    	interp:pow3Out
-    	sizeChangeStart:12
-    	length: 40
-    	sizeFrom: 2
-    	sizeTo: 6
-    	baseRotation:180
-    	colorFrom: D6AF8D60
-    	colorTo: d6cf8d00
-      }
-    ]
-    trailEffect: [
-    	{
-    	type: ParticleEffect
-    	particles: 4
+    	particles: 7
     	lifetime: 50
     	layer: 100.4
     	cone: 360
@@ -106,6 +89,19 @@ ammoTypes: {
     	sizeTo: 4
     	baseRotation:180
     	colorFrom: d6d18daa
+    	colorTo: d6cf8d00
+      }
+    ]
+    trailEffect: [
+      	{
+    	type: WaveEffect
+    	lifetime: 30
+    	layer: 100.4
+    	interp:pow3Out
+    	sizeFrom: 1
+    	sizeTo: 0
+    	baseRotation:180
+    	colorFrom: D6AF8D60
     	colorTo: d6cf8d00
       }
    	]
