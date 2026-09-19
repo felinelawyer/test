@@ -26,7 +26,7 @@ weapons: [
   mirror: true
   alternate: true
   shoot: {
-      type: RailBulletType
+      type: ShootAlternate
   }
 
   shootSound: shootArc
