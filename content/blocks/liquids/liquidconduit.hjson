@@ -12,7 +12,7 @@ leaks: true
 underBullets: true
 
 junctionReplacement: conduitjunction
-rotBridgeReplacement: liquidbridge
+rotBridgeReplacement: conduitbridge
 
 research: core-claron
 researchCost: [
