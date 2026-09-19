@@ -4,7 +4,7 @@ description: tests
 category: distribution
 speed: 7.5
 itemCapacity: 1
-health: 45
+health: 40
 bridgeReplacement: nickel-duct-bridge
 junctionReplacement: nickel-junc
 

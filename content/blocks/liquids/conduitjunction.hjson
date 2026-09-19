@@ -1,0 +1,20 @@
+type: LiquidJunction
+name: Conduit Junction
+details: i hate junctions tbh
+description: g
+solid: false
+category: liquid
+squareSprite: true
+health: 30
+
+requirements: [
+  jamberyllium/5
+]
+
+
+
+research: iiquidconduit
+researchCost: [
+  jamberyllium/40
+]
+shownPlanets: [test]

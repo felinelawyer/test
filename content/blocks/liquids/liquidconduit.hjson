@@ -1,0 +1,21 @@
+type: Conduit
+name: Liquid Conduit
+description: guluk guluk 
+category: liquid
+
+requirements: [
+  jamberyllium/2
+]
+
+health: 30
+leaks: true
+underBullets: true
+
+junctionReplacement: liquidjunc
+rotBridgeReplacement: liquidbridge
+
+research: core-claron
+researchCost: [
+  jamberyllium/20
+]
+shownPlanets: [test]

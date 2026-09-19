@@ -1,0 +1,22 @@
+type: DirectionLiquidBridge
+name: Conduit Bridge
+description: jump
+size: 1
+health: 45
+range: 4
+solid: false
+
+requirements: [
+  jamberyllium/10
+  nickel/2
+]
+
+category: liquid
+squareSprite: true
+
+research: efliquid-pipeline
+researchCost: [
+  jamberyllium/100
+  nickel/20
+] 
+shownPlanets: [test]

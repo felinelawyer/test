@@ -1,0 +1,23 @@
+type: LiquidRouter
+name: Conduit Router
+description: chain me
+size: 1
+solid: false
+underBullets: true
+health: 40
+liquidCapacity: 20
+category: liquid
+squareSprite: true
+
+
+requirements: [
+  jamberyllium/10
+]
+
+
+
+research: conduitjunction
+researchCost: [
+  jamberyllium/80
+]
+shownPlanets: [test]

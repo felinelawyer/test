@@ -101,19 +101,6 @@ ammoTypes: {
     	colorTo: d6cf8d00
       }
     ]
-    trailEffect: [
-      	{
-    	type: WaveEffect
-    	lifetime: 30
-    	layer: 100.4
-    	interp:pow3Out
-    	sizeFrom: 1
-    	sizeTo: 0
-    	baseRotation:180
-    	colorFrom: f8ffb5d8
-    	colorTo: d6cf8d00
-      }
-   	]
     shootEffect: [
     	{
     	type: ParticleEffect

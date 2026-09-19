@@ -1,0 +1,24 @@
+type: Wall
+name: Large Beryllium Wall
+description: wol
+size: 2
+armor: 4
+health: 800
+squareSprite: true
+category: defense
+
+
+requirements: [
+  jamberyllium/6
+]
+
+
+research: {
+  parent: core-claron 
+  objectives: [  
+    jamberyllium
+  ]
+}
+researchCost: [
+  jamberyllium/240
+]
