@@ -30,7 +30,7 @@ weapons: [
   }
   shootSound: shootArc
   bullet: {
-    lightningLength: 6.7
+    lightningLength: 13.4
     status: EMP
     type: LightningBulletType
     speed: 2
