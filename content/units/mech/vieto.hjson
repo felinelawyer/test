@@ -26,28 +26,27 @@ weapons: [
   mirror: true
   alternate: true
   shoot: {
-      type: ShootArcBulletType
-      arcDegrees: 30
+      type: ShootBulletType
+      arcDegrees: 25
       arcVelocity: 0.5
   }
 
   shootSound: shootArc
   bullet: {
     status: EMP
-    type: LightningBulletType
+    type: RailBulletType
     speed: 9
     lifetime: 13
     damage: 15
     pierce: true
     pierceBuilding: true
-
     hitColor: 34df51ff
     trailColor: 6cf589ff
     trailWidth: 0.7
     trailInterval: 2
     trailEffect: {
         type: ParticleEffect
-        startDelay:0
+        startDelay:2
         lifetime: 7
         particles: 1
         cone: 0
