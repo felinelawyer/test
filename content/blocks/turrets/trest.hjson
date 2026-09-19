@@ -108,7 +108,7 @@ ammoTypes: {
     	lifetime: 50
     	layer: 100.5
     	cone: 30
-    	length: 60
+    	length: 6
     	interp:pow3Out
     	sizeFrom: 2
     	sizeTo: 3
