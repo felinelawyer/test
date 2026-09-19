@@ -10,6 +10,7 @@ outlineColor: 181425FF
 mechLegColor: 181425FF
 stepSound: mechStepSmall
 drownTime: 240
+reloadTime: 45
 
 weapons: [
   {
@@ -32,7 +33,7 @@ weapons: [
   shootSound: shootArc
   bullet: {
     status: EMP
-    type: RailBulletType
+    type: BasicBulletType
     speed: 9
     lifetime: 13
     damage: 15
