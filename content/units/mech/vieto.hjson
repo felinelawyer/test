@@ -18,7 +18,7 @@ weapons: [
   name: idk
   recoil: 0.5
   shootCone: 10
-  inaccuracy: 10
+  inaccuracy: 5
   velocityRnd: 0.3
   y: 0.5
   reload: 15
@@ -28,11 +28,11 @@ weapons: [
   shoot: {
       type: ShootSpread
   }
-
   shootSound: shootArc
   bullet: {
     status: EMP
     type: LightningBulletType
+    spawnBulletRandomSpread: 3
     speed: 2
     lifetime: 3
     damage: 10
@@ -46,7 +46,7 @@ weapons: [
     	  {  
         type: WaveEffect
         lifetime: 20
-        sizeFrom: 4
+        sizeFrom: 2.5
         sizeTo: 1
         strokeFrom: 0.3
         strokeTo: 3
