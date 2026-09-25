@@ -78,8 +78,8 @@ weapons: [
         particles: 3
         cone: 360
         length: 8
-        sizeFrom: 1.2
-        sizeTo: 1
+        sizeFrom: 1.8
+        sizeTo: 1.3
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
       }
@@ -87,7 +87,7 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 90
-        particles: 8
+        particles: 6
         cone: 360
         length: 14
         sizeFrom: 1
@@ -99,10 +99,10 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 105
-        particles: 5
+        particles: 4
         cone: 360
         length: 11
-        sizeFrom: 1.2
+        sizeFrom: 1.4
         sizeTo: 1
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
