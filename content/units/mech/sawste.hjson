@@ -27,7 +27,7 @@ weapons: [
   shootSound: shootNova
   bullet: {
     status: EMP
-    statusLenght: 1.2
+    statusLenght: 75
     type: BasicBulletType
     speed: 10
     lifetime: 60
@@ -99,6 +99,7 @@ weapons: [
       }
     ]
   }
+}]
 
 research: {
     parent: test-fabricator
