@@ -29,8 +29,8 @@ weapons: [
     status: EMP
     statusDuration: 75
     type: LaserBoltBulletType
-    speed: 10
-    lifetime: 60
+    speed: 7
+    lifetime: 45
     damage: 20
     pierce: false
     pierceBuilding: false
@@ -97,6 +97,19 @@ weapons: [
         colorTo: ffffff3d
       }
       ]
+    despawnEffect: [
+      {  
+        type: WaveEffect
+        lifetime: 15
+        sizeFrom: 0
+        sizeTo: 1.5
+        strokeFrom: 0.3
+        strokeTo: 3
+        followParent: true
+        colorFrom: 93ffa5ff
+        colorTo: ffffff3d
+      }
+    ]
   }
   }
     ]
