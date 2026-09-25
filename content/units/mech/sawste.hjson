@@ -99,7 +99,6 @@ weapons: [
       }
     ]
   }
-]
 
 research: {
     parent: test-fabricator
