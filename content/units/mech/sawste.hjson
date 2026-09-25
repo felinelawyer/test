@@ -45,27 +45,16 @@ weapons: [
     trailInterval: 2
     collidesTeam: false
     hitSound: shootBeamPLasma
-    shootEffect:[
-      {  
-        type: WaveEffect
-        lifetime: 45
-        sizeFrom: 0
-        sizeTo: 3
-        strokeFrom: 0.3
-        strokeTo: 0.9
-        followParent: true
-        colorFrom: 93ffa5ff
-        colorTo: 93ffa500
-      }
-    ]
+    shootEffect: none
+    
     hitEffect: [
       {  
         type: WaveEffect
         lifetime: 45
         sizeFrom: 0
-        sizeTo: 1.25
+        sizeTo: 2
         strokeFrom: 0.3
-        strokeTo: 3
+        strokeTo: 0.9
         followParent: true
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
@@ -76,10 +65,21 @@ weapons: [
         type: WaveEffect
         lifetime: 60
         sizeFrom: 0
-        sizeTo: 2.5
-        strokeFrom: 0.3
-        strokeTo: 0.8
-        followParent: true
+        sizeTo: 1.1
+        strokeFrom: 0.5
+        strokeTo: 1
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      {
+        type: ParticleEffect
+        sizeChangeStart: 45
+        lifetime: 120
+        particles: 3
+        cone: 360
+        length: 8
+        sizeFrom: 1.2
+        sizeTo: 1
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
       }
@@ -87,9 +87,9 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 90
-        particles: 5
+        particles: 8
         cone: 360
-        length: 16
+        length: 14
         sizeFrom: 1
         sizeTo: 0.5
         colorFrom: 93ffa5ff
@@ -99,7 +99,7 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 105
-        particles: 3
+        particles: 5
         cone: 360
         length: 11
         sizeFrom: 1.2
