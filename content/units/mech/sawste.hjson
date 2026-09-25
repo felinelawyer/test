@@ -48,7 +48,7 @@ weapons: [
     shootEffect:[
       {  
         type: WaveEffect
-        lifetime: 30
+        lifetime: 45
         sizeFrom: 0
         sizeTo: 3
         strokeFrom: 0.3
@@ -89,7 +89,7 @@ weapons: [
         lifetime: 90
         particles: 5
         cone: 360
-        length: 1
+        length: 12
         sizeFrom: 1
         sizeTo: 0.5
         colorFrom: 93ffa5ff
@@ -101,7 +101,7 @@ weapons: [
         lifetime: 105
         particles: 3
         cone: 360
-        length: 1
+        length: 9
         sizeFrom: 1.2
         sizeTo: 1
         colorFrom: 93ffa5ff
