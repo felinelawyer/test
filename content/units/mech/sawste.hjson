@@ -57,60 +57,31 @@ weapons: [
         colorFrom: 93ffa5ff
         colorTo: ffffff3d
       }
-      {
-    	type: ParticleEffect
-    	particles: 5
-    	lifetime: 10
-    	layer: 100.4
-    	cone: 360
-    	interp:pow3Out
-    	sizeChangeStart: 0
-    	length: 5
-    	sizeFrom: 0
-    	sizeTo: 0.6
-    	colorFrom: a7ff9ce5
-    	colorTo: d6cf8d00
-      }
-      {
-    	type: ParticleEffect
-    	particles: 5
-    	lifetime: 15
-    	layer: 100.4
-    	cone: 120
-      baseRotation: 60
-    	interp:pow3Out
-    	sizeChangeStart:5
-    	length: 8
-    	sizeFrom: 0.2
-    	sizeTo: 1.0
-    	colorFrom: a7ff9ce5
-    	colorTo: d6cf8d00
-      }
     ]
     hitEffect: [
       {  
         type: WaveEffect
-        lifetime: 15
+        lifetime: 45
         sizeFrom: 0
-        sizeTo: 1.5
+        sizeTo: 1.25
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
         colorFrom: 93ffa5ff
-        colorTo: ffffff3d
+        colorTo: 93ffa500
       }
       ]
     despawnEffect: [
       {  
         type: WaveEffect
-        lifetime: 15
+        lifetime: 60
         sizeFrom: 0
         sizeTo: 1.5
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
         colorFrom: 93ffa5ff
-        colorTo: ffffff3d
+        colorTo: 93ffa500
       }
     ]
   }
