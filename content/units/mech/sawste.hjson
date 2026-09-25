@@ -27,8 +27,8 @@ weapons: [
   shootSound: shootNova
   bullet: {
     status: EMP
-    statusLenght: 75
-    type: BasicBulletType
+    statusDuration: 75
+    type: LaserBoltBulletType
     speed: 10
     lifetime: 60
     damage: 20
