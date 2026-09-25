@@ -24,13 +24,13 @@ weapons: [
   rotate: false
   mirror: true
   alternate: false
-  shootSound: shootNova
+  shootSound: shootLaser
   bullet: {
     status: EMP
     statusDuration: 75
     type: LaserBoltBulletType
     speed: 7
-    lifetime: 45
+    lifetime: 40
     damage: 20
     pierce: true
     pierceBuilding: true
@@ -44,7 +44,7 @@ weapons: [
     trailLength: 6
     trailInterval: 2
     collidesTeam: false
-    hitSound: hitNova
+    hitSound: shootBeamPLasma
     shootEffect:[
       {  
         type: WaveEffect
