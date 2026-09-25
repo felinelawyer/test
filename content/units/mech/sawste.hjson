@@ -77,9 +77,9 @@ weapons: [
         type: WaveEffect
         lifetime: 60
         sizeFrom: 1.2
-        sizeTo: 8
-        strokeFrom: 0.4
-        strokeTo: 0.8
+        sizeTo: 6
+        strokeFrom: 0.7
+        strokeTo: 1.6
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
       }
