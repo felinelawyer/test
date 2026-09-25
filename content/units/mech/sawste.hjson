@@ -17,9 +17,9 @@ weapons: [
   x: -6
   name: idk
   recoil: 0.5
-  shootCone: 10
-  inaccuracy: 0
-  velocityRnd: 0.3
+  shootCone: 5
+  inaccuracy: 5
+  velocityRnd: 0.1
   reload: 45
   rotate: false
   mirror: true
@@ -30,7 +30,7 @@ weapons: [
     statusDuration: 75
     type: LaserBoltBulletType
     speed: 7
-    lifetime: 40
+    lifetime: 25
     damage: 20
     pierce: true
     pierceBuilding: true
