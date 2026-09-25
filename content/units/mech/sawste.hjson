@@ -48,14 +48,14 @@ weapons: [
     shootEffect:[
       {  
         type: WaveEffect
-        lifetime: 75
+        lifetime: 30
         sizeFrom: 0
-        sizeTo: 1
+        sizeTo: 3
         strokeFrom: 0.3
         strokeTo: 3
         followParent: true
         colorFrom: 93ffa5ff
-        colorTo: ffffff3d
+        colorTo: 93ffa500
       }
     ]
     hitEffect: [
@@ -88,7 +88,7 @@ weapons: [
         sizeChangeStart: 45
         lifetime: 90
         particles: 5
-        cone: 0
+        cone: 360
         length: 1
         sizeFrom: 1
         sizeTo: 0.5
@@ -100,7 +100,7 @@ weapons: [
         sizeChangeStart: 45
         lifetime: 105
         particles: 3
-        cone: 0
+        cone: 360
         length: 1
         sizeFrom: 1.2
         sizeTo: 1
