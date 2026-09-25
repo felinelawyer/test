@@ -50,12 +50,24 @@ weapons: [
     hitEffect: [
       {  
         type: WaveEffect
-        lifetime: 45
+        lifetime: 60
         sizeFrom: 0
-        sizeTo: 2
+        sizeTo: 1.75
         strokeFrom: 0.3
         strokeTo: 0.9
         followParent: true
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      {
+        type: ParticleEffect
+        sizeChangeStart: 15
+        lifetime: 60
+        particles: 5
+        cone: 360
+        length: 14
+        sizeFrom: 1
+        sizeTo: 0.5
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
       }
@@ -64,10 +76,10 @@ weapons: [
       {  
         type: WaveEffect
         lifetime: 60
-        sizeFrom: 0
-        sizeTo: 1.1
-        strokeFrom: 0.5
-        strokeTo: 1
+        sizeFrom: 1
+        sizeTo: 2.5
+        strokeFrom: 0.4
+        strokeTo: 0.8
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
       }
