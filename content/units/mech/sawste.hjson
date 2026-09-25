@@ -18,7 +18,7 @@ weapons: [
   name: idk
   recoil: 0.5
   shootCone: 5
-  inaccuracy: 5
+  inaccuracy: 0
   velocityRnd: 0.1
   reload: 45
   rotate: false
@@ -52,7 +52,7 @@ weapons: [
         sizeFrom: 0
         sizeTo: 3
         strokeFrom: 0.3
-        strokeTo: 3
+        strokeTo: 0.9
         followParent: true
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
