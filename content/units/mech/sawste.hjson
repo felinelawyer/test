@@ -78,7 +78,7 @@ weapons: [
         sizeFrom: 0
         sizeTo: 2.5
         strokeFrom: 0.3
-        strokeTo: 3
+        strokeTo: 0.8
         followParent: true
         colorFrom: 93ffa5ff
         colorTo: 93ffa500
@@ -89,7 +89,7 @@ weapons: [
         lifetime: 90
         particles: 5
         cone: 360
-        length: 12
+        length: 16
         sizeFrom: 1
         sizeTo: 0.5
         colorFrom: 93ffa5ff
@@ -101,7 +101,7 @@ weapons: [
         lifetime: 105
         particles: 3
         cone: 360
-        length: 9
+        length: 11
         sizeFrom: 1.2
         sizeTo: 1
         colorFrom: 93ffa5ff
