@@ -1,0 +1,101 @@
+type: mech
+name: Sawste
+description: surv on top of exterior
+speed: 0.9
+flying: false
+health: 450
+armor: 2
+hitSize: 4
+outlineColor: 181425FF
+mechLegColor: 181425FF
+stepSound: mechStepSmall
+drownTime: 330
+
+weapons: [
+  {
+  top: false
+  x: -6
+  name: idk
+  recoil: 0.5
+  shootCone: 10
+  inaccuracy: 3
+  velocityRnd: 0.3
+  reload: 30
+  rotate: false
+  mirror: true
+  alternate: false
+  shootSound: shootNova
+  bullet: {
+    status: EMP
+    statusLenght: 1.2
+    type: BasicBulletType
+    speed: 10
+    lifetime: 60
+    damage: 20
+    pierce: false
+    pierceBuilding: false
+    hitColor: 34df51ff
+    backColor: 8FFFC0FF
+    trailColor: 8FFFC0FF
+    trailWidth: 1.2
+    trailLength: 6
+    trailInterval: 2
+    collidesTeam: false
+    hitSound: hitNova
+    shootEffect: none
+    hitEffect
+    smokeEffect: [
+      {  
+        type: WaveEffect
+        lifetime: 20
+        sizeFrom: 0
+        sizeTo: 1
+        strokeFrom: 0.3
+        strokeTo: 3
+        followParent: true
+        colorFrom: 93ffa5ff
+        colorTo: ffffff3d
+      }
+      {
+    	type: ParticleEffect
+    	particles: 5
+    	lifetime: 20
+    	layer: 100.4
+    	cone: 360
+    	interp:pow3Out
+    	sizeChangeStart:5
+    	length: 3
+    	sizeFrom: 0.1
+    	sizeTo: 0.6
+    	colorFrom: a7ff9ce5
+    	colorTo: d6cf8d00
+      }
+      {
+    	type: ParticleEffect
+    	particles: 5
+    	lifetime: 15
+    	layer: 100.4
+    	cone: 120
+      baseRotation: 60
+    	interp:pow3Out
+    	sizeChangeStart:5
+    	length: 3
+    	sizeFrom: 0.2
+    	sizeTo: 1.0
+    	colorFrom: a7ff9ce5
+    	colorTo: d6cf8d00
+      }
+    ]
+  }
+  }
+]
+
+research: {
+    parent: test-fabricator
+}
+
+researchCost: [
+    nickel/550
+    jamberyllium/220
+]
+shownPlanets: [test]
