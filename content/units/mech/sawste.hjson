@@ -20,7 +20,7 @@ weapons: [
   shootCone: 10
   inaccuracy: 0
   velocityRnd: 0.3
-  reload: 30
+  reload: 45
   rotate: false
   mirror: true
   alternate: false
@@ -32,8 +32,11 @@ weapons: [
     speed: 7
     lifetime: 45
     damage: 20
-    pierce: false
-    pierceBuilding: false
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 3
+    pierceArmor: 1
+    laserAbsorb: true
     hitColor: 34df51ff
     backColor: 8FFFC0FF
     trailColor: 8FFFC0FF
@@ -45,7 +48,7 @@ weapons: [
     shootEffect:[
       {  
         type: WaveEffect
-        lifetime: 30
+        lifetime: 75
         sizeFrom: 0
         sizeTo: 1
         strokeFrom: 0.3
@@ -57,13 +60,13 @@ weapons: [
       {
     	type: ParticleEffect
     	particles: 5
-    	lifetime: 20
+    	lifetime: 10
     	layer: 100.4
     	cone: 360
     	interp:pow3Out
-    	sizeChangeStart:5
+    	sizeChangeStart: 0
     	length: 5
-    	sizeFrom: 0.1
+    	sizeFrom: 0
     	sizeTo: 0.6
     	colorFrom: a7ff9ce5
     	colorTo: d6cf8d00
