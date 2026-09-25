@@ -75,7 +75,7 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 120
-        particles: 3
+        particles: 2
         cone: 360
         length: 8
         sizeFrom: 1.8
@@ -87,7 +87,7 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 90
-        particles: 6
+        particles: 5
         cone: 360
         length: 14
         sizeFrom: 1
@@ -99,7 +99,7 @@ weapons: [
         type: ParticleEffect
         sizeChangeStart: 45
         lifetime: 105
-        particles: 4
+        particles: 3
         cone: 360
         length: 11
         sizeFrom: 1.4
