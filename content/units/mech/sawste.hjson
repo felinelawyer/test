@@ -43,7 +43,7 @@ weapons: [
     collidesTeam: false
     hitSound: hitNova
     shootEffect: none
-    hitEffect: {
+    hitEffect: [
       {  
         type: WaveEffect
         lifetime: 15
@@ -55,6 +55,7 @@ weapons: [
         colorFrom: 93ffa5ff
         colorTo: ffffff3d
       }
+      ]
     smokeEffect: [
       {  
         type: WaveEffect
@@ -97,7 +98,6 @@ weapons: [
     	colorTo: d6cf8d00
       }
     ]
-  }
   }
 ]
 
