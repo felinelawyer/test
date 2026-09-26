@@ -1,16 +1,25 @@
-type: mech
+type: tank
 name: Sawste
 description: surv on top of exterior
 speed: 0.9
 flying: false
 health: 450
+omniMovement: false
+treadpullOffset: 2
 armor: 2
 hitSize: 4
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
 outlineColor: 181425FF
 mechLegColor: 181425FF
-stepSound: mechStepSmall
 drownTime: 330
-
+tankMoveSound: tankMoveSmall
 weapons: [
   {
   top: false
@@ -26,6 +35,23 @@ weapons: [
   alternate: false
   shootSound: shootLaser
   bullet: {
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 1
+      fragVelocityMax: 1
+      fragRandomSpread: 0
+      fragBullets: 1
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 8
+        damage: 5
+        pierce: true
+        pierceCap: 2
+        pierceDamageFactor: 0.4
+        buildingDamageMultiplier: 0.35
+        pierceBuilding: false
+        lightningColor: 34df51ff
+      }
     status: EMP
     statusDuration: 75
     type: LaserBoltBulletType
