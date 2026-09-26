@@ -29,7 +29,7 @@ weapons: [
   shootCone: 5
   inaccuracy: 0
   velocityRnd: 0.1
-  reload: 45
+  reload: 60
   rotate: false
   mirror: true
   alternate: false
@@ -43,14 +43,14 @@ weapons: [
       fragBullets: 3
       fragBullet: {
         type: LightningBulletType
-        lightningLength: 4
+        lightningLength: 3
         damage: 5
         pierce: true
         pierceCap: 2
         pierceDamageFactor: 0.4
         buildingDamageMultiplier: 0.35
         pierceBuilding: false
-        lightningColor: 34df51ff
+        lightningColor: 34df5180
       }
     status: EMP
     statusDuration: 75
@@ -60,8 +60,8 @@ weapons: [
     damage: 20
     pierce: true
     pierceBuilding: true
-    pierceCap: 3
-    pierceArmor: 1
+    pierceCap: 2
+    pierceArmor: 0.5
     laserAbsorb: true
     hitColor: 34df51ff
     backColor: 8FFFC0FF
