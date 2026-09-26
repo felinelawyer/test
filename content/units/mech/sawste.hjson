@@ -56,7 +56,7 @@ weapons: [
     statusDuration: 75
     type: LaserBoltBulletType
     speed: 7
-    lifetime: 18
+    lifetime: 20
     damage: 15
     pierce: true
     pierceBuilding: true
