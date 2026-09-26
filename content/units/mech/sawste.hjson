@@ -24,12 +24,12 @@ weapons: [
   {
   top: false
   x: -6
-  name: idk
+  name: sawste-weapon
   recoil: 0.5
   shootCone: 5
   inaccuracy: 0
   velocityRnd: 0.1
-  reload: 60
+  reload: 45
   rotate: false
   mirror: true
   alternate: false
@@ -56,8 +56,8 @@ weapons: [
     statusDuration: 75
     type: LaserBoltBulletType
     speed: 7
-    lifetime: 25
-    damage: 20
+    lifetime: 18
+    damage: 15
     pierce: true
     pierceBuilding: true
     pierceCap: 2
