@@ -233,7 +233,7 @@ weapons: [
   }
   }
 ]
-
+]
 research: {
     parent: test-fabricator
 }
@@ -243,4 +243,4 @@ researchCost: [
     jamberyllium/220
 ]
 shownPlanets: [test]
-]
+
