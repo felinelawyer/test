@@ -66,9 +66,9 @@ weapons: [
     hitColor: 34df51ff
     backColor: 8FFFC0FF
     trailColor: 8FFFC0FF
-    trailWidth: 2.4
-    trailLength: 12
-    trailInterval: 4
+    trailWidth: 1.9
+    trailLength: 8
+    trailInterval: 2
     collidesTeam: false
     hitSound: shootBeamPLasma
     shootEffect: none
