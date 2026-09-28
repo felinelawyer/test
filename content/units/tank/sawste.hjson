@@ -1,13 +1,13 @@
 type: tank
 name: Sawste
 description: surv on top of exterior
-speed: 0.9
+speed: 1
 flying: false
-health: 450
+health: 250
 omniMovement: true
 treadpullOffset: 2
 armor: 2
-hitSize: 4
+hitSize: 9.5
 treadRects: [
   {
     x: 9
