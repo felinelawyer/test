@@ -147,13 +147,12 @@ weapons: [
     ]
   }
   }
-    ]
-weapons:
+    
 [
   {
   top: false
   x: -6
-  name: idk
+  name: vieto-arc-weapon
   recoil: 0.5
   shootCone: 10
   inaccuracy: 5
@@ -244,3 +243,4 @@ researchCost: [
     jamberyllium/220
 ]
 shownPlanets: [test]
+]
