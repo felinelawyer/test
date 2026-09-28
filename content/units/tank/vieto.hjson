@@ -1,17 +1,154 @@
-type: mech
+type: tank
 name: Vieto
 description: true splendor
-speed: 1
+speed: 0.95
 flying: false
-health: 250
+health: 400
 armor: 3
 hitSize: 10.25
 outlineColor: 181425FF
 mechLegColor: 181425FF
-stepSound: mechStepSmall
-drownTime: 240
-
+stepSound: tankMoveSmall
+drownTime: 270
+omniMovement: true
+treadpulloffset: 2
+treadRects: [
+  {
+    x: 9
+    y: -26
+    width: 18
+    height: 48
+  }
+]
 weapons: [
+  {
+  top: true
+  name: vieto-laser-weapon
+  recoil: 0.5
+  shootCone: 5
+  inaccuracy: 0
+  velocityRnd: 0.1
+  reload: 60
+  rotate: false
+  mirror: false
+  alternate: false
+  shootSound: shootLaser
+  bullet: {
+      fragLifeMin: 1
+      fragLifeMax: 1
+      fragVelocityMin: 0
+      fragVelocityMax: 0
+      fragRandomSpread: 360
+      fragBullets: 3
+      fragBullet: {
+        type: LightningBulletType
+        lightningLength: 4
+        damage: 6
+        pierce: true
+        pierceCap: 2
+        pierceDamageFactor: 0.4
+        buildingDamageMultiplier: 0.35
+        pierceBuilding: true
+        lightningColor: 34df5180
+      }
+    status: EMP
+    statusDuration: 15
+    type: LaserBoltBulletType
+    speed: 7
+    lifetime: 25
+    damage: 18
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 2
+    pierceArmor: 0.75
+    laserAbsorb: true
+    hitColor: 34df51ff
+    backColor: 8FFFC0FF
+    trailColor: 8FFFC0FF
+    trailWidth: 1.2
+    trailLength: 6
+    trailInterval: 2
+    collidesTeam: false
+    hitSound: shootBeamPLasma
+    shootEffect: none
+    
+    hitEffect: [
+      {  
+        type: WaveEffect
+        lifetime: 60
+        sizeFrom: 0
+        sizeTo: 1.75
+        strokeFrom: 0.3
+        strokeTo: 0.9
+        followParent: true
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      {
+        type: ParticleEffect
+        sizeChangeStart: 15
+        lifetime: 60
+        particles: 5
+        cone: 360
+        length: 14
+        sizeFrom: 1
+        sizeTo: 0.5
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      ]
+    despawnEffect: [
+      {  
+        type: WaveEffect
+        lifetime: 60
+        sizeFrom: 1.2
+        sizeTo: 6
+        strokeFrom: 0.7
+        strokeTo: 1.6
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      {
+        type: ParticleEffect
+        sizeChangeStart: 45
+        lifetime: 120
+        particles: 2
+        cone: 360
+        length: 8
+        sizeFrom: 1.8
+        sizeTo: 1.3
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      {
+        type: ParticleEffect
+        sizeChangeStart: 45
+        lifetime: 90
+        particles: 5
+        cone: 360
+        length: 14
+        sizeFrom: 1
+        sizeTo: 0.5
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+      {
+        type: ParticleEffect
+        sizeChangeStart: 45
+        lifetime: 105
+        particles: 3
+        cone: 360
+        length: 11
+        sizeFrom: 1.4
+        sizeTo: 1
+        colorFrom: 93ffa5ff
+        colorTo: 93ffa500
+      }
+    ]
+  }
+  }
+    ]
+[
   {
   top: false
   x: -6
@@ -28,6 +165,7 @@ weapons: [
   bullet: {
     lightningLength: 13.4
     status: EMP
+    statusDuration: 25
     type: LightningBulletType
     speed: 2
     lifetime: 1.5
