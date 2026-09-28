@@ -147,7 +147,8 @@ weapons: [
     ]
   }
   }
-    ],
+    ]
+weapons:
 [
   {
   top: false
