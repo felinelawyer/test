@@ -1,0 +1,57 @@
+type: UnitFactory
+size: 3
+health: 320
+configurable: false
+name: tank maker
+description: artificer go boom
+squareSprite: false
+hasPower: true
+hasItems: true
+hasLiquids: true
+shownPlanets: [test]
+
+
+requirements: [
+  idk
+]
+category: units
+
+
+plans: 
+  {
+    type: FactoryUnitPlan
+    unit: sawste
+    requirements: [
+      stuff
+      stuff
+    ]
+    time: idk
+      }
+
+
+
+
+consumes: {
+  power: 2
+  liquids: [
+	test-water/0.2
+	random liquid
+  ]
+}
+
+
+
+research: {
+  parent: core-claron
+  objectives: [  
+    {
+	type: OnSector
+	preset: sectoryougetunitsat
+    }
+  ]
+}
+researchCost: [
+	nickel/440
+    jamberyllium/240
+    randomitem
+]
