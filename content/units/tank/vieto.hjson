@@ -22,6 +22,8 @@ treadRects: [
 ]
 weapons: [
   {
+  x: 0
+  y: 0
   top: true
   name: vieto-laser-weapon
   recoil: 0.5
@@ -39,11 +41,11 @@ weapons: [
       fragVelocityMin: 0
       fragVelocityMax: 0
       fragRandomSpread: 360
-      fragBullets: 3
+      fragBullets: 5
       fragBullet: {
         type: LightningBulletType
         lightningLength: 4
-        damage: 6
+        damage: 7
         pierce: true
         pierceCap: 2
         pierceDamageFactor: 0.4
@@ -52,7 +54,7 @@ weapons: [
         lightningColor: 34df5180
       }
     status: EMP
-    statusDuration: 15
+    statusDuration: 20
     type: LaserBoltBulletType
     speed: 7
     lifetime: 25
@@ -65,8 +67,8 @@ weapons: [
     hitColor: 34df51ff
     backColor: 8FFFC0FF
     trailColor: 8FFFC0FF
-    trailWidth: 1.2
-    trailLength: 6
+    trailWidth: 1.9
+    trailLength: 10
     trailInterval: 2
     collidesTeam: false
     hitSound: shootBeamPLasma
