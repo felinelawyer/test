@@ -24,7 +24,7 @@ researchCost: [
 
 weapons: [
   {
-    x: -1
+    x: -4
     y: 0
     rotate: false
     mirror: true
@@ -74,7 +74,7 @@ weapons: [
           layer:100.1
           colorFrom: 96e1ffff
           colorTo: b5eaff00
-          sizeFrom: 3.1
+          sizeFrom: 2.7
           sizeTo: 0.0
         }
         {
@@ -90,7 +90,7 @@ weapons: [
           colorFrom: 72c3f270
           colorTo: a4d2ed00
           sizeFrom: 1.3
-          sizeTo: 3.7
+          sizeTo: 3.1
         }
         {
           type: ParticleEffect
@@ -106,7 +106,7 @@ weapons: [
           colorFrom: a1f7ff80
           colorTo: b8f9ff00
           sizeFrom: 1.3
-          sizeTo: 4.8
+          sizeTo: 4.1
         }
       ]
     }
