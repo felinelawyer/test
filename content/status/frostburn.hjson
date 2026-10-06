@@ -1,0 +1,10 @@
+type: StatusEffect
+name: Frostburn
+description: my name is andrew dingus ooo shiddings
+intervalDamage: 5
+intervalDamageTime: 20
+speedMultiplier: 0.9
+reloadMultiplier: 0.8
+damageMultiplier: 0.85
+outline: true
+applyColor: 9ef7ffff
