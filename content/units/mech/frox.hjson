@@ -24,7 +24,7 @@ researchCost: [
 
 weapons: [
   {
-    x: -6
+    x: -1
     y: 0
     rotate: false
     mirror: true
@@ -43,7 +43,7 @@ weapons: [
       statusDuration: 150
       incendAmount:3
       incendChance:0.3
-      lifetime: 30
+      lifetime: 17
       despawnEffect: none
       hitEffect: none
       height: 0
