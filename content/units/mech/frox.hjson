@@ -59,8 +59,8 @@ weapons: [
           layer:100.1
           colorFrom: 73e8ff30
           colorTo: 96eeff00
-          sizeFrom: 1.2
-          sizeTo: 2
+          sizeFrom: 0.3
+          sizeTo: 1.2
         }
         {
           type: ParticleEffect
@@ -73,8 +73,8 @@ weapons: [
           layer:100.1
           colorFrom: 96e1ffff
           colorTo: b5eaff00
-          sizeFrom: 1.2
-          sizeTo: 4
+          sizeFrom: 0.4
+          sizeTo: 1.5
         }
         {
           type: ParticleEffect
@@ -87,8 +87,8 @@ weapons: [
           layer:100.2
           colorFrom: 72c3f270
           colorTo: a4d2ed00
-          sizeFrom: 3
-          sizeTo: 1
+          sizeFrom: 1
+          sizeTo: 2.2
         }
         {
           type: ParticleEffect
@@ -102,8 +102,8 @@ weapons: [
           sizeChangeStart:110
           colorFrom: a1f7ff80
           colorTo: b8f9ff00
-          sizeFrom: 1.6
-          sizeTo: 0
+          sizeFrom: 0
+          sizeTo: 1.7
         }
       ]
     }
