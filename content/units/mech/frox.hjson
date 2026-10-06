@@ -59,27 +59,29 @@ weapons: [
           layer:100.1
           colorFrom: 73e8ff30
           colorTo: 96eeff00
-          sizeFrom: 0.5
-          sizeTo: 1.8
+          sizeFrom: 1.9
+          sizeTo: 0.0
         }
         {
           type: ParticleEffect
           particles: 12
+          sizeChangeStart:56
           followParent:false
-          length: 67
+          length: 66
           lifetime: 86
           interp: pow5Out
           cone: 6
           layer:100.1
           colorFrom: 96e1ffff
           colorTo: b5eaff00
-          sizeFrom: 1.1
-          sizeTo: 3.4
+          sizeFrom: 3.1
+          sizeTo: 0.0
         }
         {
           type: ParticleEffect
           followParent:false
           particles: 8
+          sizeChangeStart: 39
           length: 57
           lifetime: 54
           interp: pow3Out
@@ -94,6 +96,7 @@ weapons: [
           type: ParticleEffect
           followParent:false
           particles: 4
+          sizeChangeStart: 32
           length: 55
           lifetime: 87
           interp: pow10Out
