@@ -57,8 +57,8 @@ weapons: [
           interp: pow5Out
           cone: 360
           layer:100.1
-          colorFrom: FCB96030
-          colorTo: C97E4700
+          colorFrom: 73e8ff30
+          colorTo: 96eeff00
           sizeFrom: 1.2
           sizeTo: 2
         }
@@ -71,8 +71,8 @@ weapons: [
           interp: pow5Out
           cone: 6
           layer:100.1
-          colorFrom: FCB960FF
-          colorTo: C97E4700
+          colorFrom: 96e1ffff
+          colorTo: b5eaff00
           sizeFrom: 1.2
           sizeTo: 4
         }
@@ -85,8 +85,8 @@ weapons: [
           interp: pow3Out
           cone: 3
           layer:100.2
-          colorFrom: FCB96070
-          colorTo: C97E4700
+          colorFrom: 72c3f270
+          colorTo: a4d2ed00
           sizeFrom: 3
           sizeTo: 1
         }
@@ -100,8 +100,8 @@ weapons: [
           cone: 3
           layer:100.3
           sizeChangeStart:110
-          colorFrom: FFCF9F
-          colorTo: C97E47
+          colorFrom: a1f7ff80
+          colorTo: b8f9ff00
           sizeFrom: 1.6
           sizeTo: 0
         }
