@@ -66,7 +66,7 @@ weapons: [
           type: ParticleEffect
           particles: 12
           followParent:false
-          length: 112
+          length: 78
           lifetime: 86
           interp: pow5Out
           cone: 6
@@ -80,7 +80,7 @@ weapons: [
           type: ParticleEffect
           followParent:false
           particles: 8
-          length: 94
+          length: 62
           lifetime: 54
           interp: pow3Out
           cone: 3
@@ -94,7 +94,7 @@ weapons: [
           type: ParticleEffect
           followParent:false
           particles: 4
-          length: 93
+          length: 71
           lifetime: 87
           interp: pow10Out
           cone: 3
