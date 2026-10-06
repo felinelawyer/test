@@ -36,14 +36,14 @@ weapons: [
     bullet: {
       damage: 3
       shootEffect: none
-      speed: 2.5
+      speed: 2.8
       pierce: true
       pierceBuilding: true
       status: frostburn
       statusDuration: 150
       incendAmount:3
       incendChance:0.3
-      lifetime: 24
+      lifetime: 30
       despawnEffect: none
       hitEffect: none
       height: 0
