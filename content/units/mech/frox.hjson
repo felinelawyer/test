@@ -34,32 +34,6 @@ weapons: [
     shootCone: 10
     inaccuracy: 3
     bullet: {
-fragLifeMin: 1
-      fragLifeMax: 150
-      fragVelocityMin: 145
-      fragVelocityMax: 0
-      fragRandomSpread: 360
-      fragBullets: 10
-      fragBullet: {
-        damage: 2
-        pierce: true
-        pierceCap: 100
-        pierceDamageFactor: 1
-        buildingDamageMultiplier: 1.2
-        pierceBuilding: true
-smokeEffect: [
-        {
-          type: ParticleEffect
-          particles: 12
-          length: 10
-          lifetime: 150
-          interp: pow5Out
-          cone: 360
-          layer:100.1
-          colorFrom: 73e8ff30
-          colorTo: 96eeff00
-          sizeFrom: 
-      }
       damage: 3
       shootEffect: none
       speed: 2.8
@@ -67,9 +41,7 @@ smokeEffect: [
       pierceBuilding: true
       status: frostburn
       statusDuration: 150
-      incendAmount:3
-      incendChance:0.3
-      lifetime: 17
+      lifetime: 22
       despawnEffect: none
       hitEffect: none
       height: 0
