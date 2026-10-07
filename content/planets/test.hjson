@@ -1,7 +1,7 @@
 localizedName: tests
 description: nun
 alwaysUnlocked: true
-mesh: [
+mesh: [{
 type: SunMesh 
     divisions: 5
     octaves: 1
@@ -16,7 +16,7 @@ type: SunMesh
     a05f36,
     913f27,
     7e1c1c
-    ]
+    ]}
   {
     //rock 1
     type: NoiseMesh
