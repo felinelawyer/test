@@ -5,7 +5,8 @@ stepSoundVolume: 0.8
 groundLayer: 60
 health: 220
 armor: 2
-speed: 1.05
+speed: 1.1
+drowntime: 210
 rotateSpeed: 3
 hitSize: 10
 itemCapacity: 5
@@ -29,84 +30,44 @@ weapons: [
     rotate: false
     mirror: true
     alternate: false
-    reload: 10
-    shootSound: shootFlame
-    shootCone: 10
+    reload: 15
+    shootSound: 
+    shootCone: 30
     inaccuracy: 3
-    bullet: {
-      damage: 3
-      shootEffect: none
-      speed: 2.8
-      pierce: true
-      pierceBuilding: true
-      status: frostburn
-      statusDuration: 150
-      lifetime: 22
-      despawnEffect: none
-      hitEffect: none
-      height: 0
-      hittable: false
-      smokeEffect: [
-        {
-          type: ParticleEffect
-          particles: 2
-          length: 6
-          lifetime: 15
-          interp: pow5Out
-          cone: 360
-          layer:100.1
-          colorFrom: 73e8ff30
-          colorTo: 96eeff00
-          sizeFrom: 1.9
-          sizeTo: 0.0
-        }
-        {
-          type: ParticleEffect
-          particles: 12
-          sizeChangeStart:56
-          followParent:false
-          length: 66
-          lifetime: 86
-          interp: pow5Out
-          cone: 6
-          layer:100.1
-          colorFrom: 96e1ffff
-          colorTo: b5eaff00
-          sizeFrom: 2.7
-          sizeTo: 0.0
-        }
-        {
-          type: ParticleEffect
-          followParent:false
-          particles: 8
-          sizeChangeStart: 39
-          length: 57
-          lifetime: 54
-          interp: pow3Out
-          cone: 3
-          layer:100.2
-          colorFrom: 72c3f270
-          colorTo: a4d2ed00
-          sizeFrom: 1.3
-          sizeTo: 3.1
-        }
-        {
-          type: ParticleEffect
-          followParent:false
-          particles: 4
-          sizeChangeStart: 32
-          length: 55
-          lifetime: 87
-          interp: pow10Out
-          cone: 3
-          layer:100.3
-          sizeChangeStart:110
-          colorFrom: a1f7ff80
-          colorTo: b8f9ff00
-          sizeFrom: 1.3
-          sizeTo: 4.1
-        }
-      ]
+      bullet: {
+    type: BasicBulletType
+    speed: 8
+    lifetime: 15
+    damage: 6
+    status: frostburn
+    statusDuration: 30
+    pierce: true
+    pierceBuilding: true
+    pierceCap: 2
+    width: 8
+    height: 12
+    smokeEffect: shootSmokeSquare
+    backColor: 75d6ffff
+    hitColor: bff7ffff
+    trailColor: a1ffecff
+    trailWidth: 0.95
+    trailLength: 7
+    trailInterval: 1.8
+    trailEffect: {
+        type: ParticleEffect
+        startDelay:2
+        lifetime: 7
+        particles: 1
+        cone: 0
+        length: 1
+        sizeFrom: 3
+        sizeTo: 1
+        colorFrom: a1ffec90
+        colorTo: a1ffec00
     }
+    missColor: 75d6ffff
+    collidesTeam: false
+    hitSound: hitduo
+  }
   }
 ]
