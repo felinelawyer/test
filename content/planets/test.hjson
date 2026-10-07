@@ -9,10 +9,10 @@ type: SunMesh
     scl: 2
     pow: 1
     mag: 1
-    colorScale: 1.35
+    colorScale: 1
     colors: [
-	  6b8bb5,
-    4a4a9e,
+	  6b91b5,
+    4f789e,
     3c3a99,
     2f2d91,
     1c1b75
