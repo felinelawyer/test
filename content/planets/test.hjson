@@ -1,4 +1,4 @@
-localizedName: tests
+localizedName: test
 description: nun
 alwaysUnlocked: true
 mesh: [{
@@ -13,7 +13,7 @@ type: SunMesh
     colors: [
 	  6b91b5,
     4f789e,
-    3c3a99,
+    415a9e,
     2f2d91,
     1c1b75
     ]}
