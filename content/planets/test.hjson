@@ -11,11 +11,11 @@ type: SunMesh
     mag: 1
     colorScale: 1.35
     colors: [
-	  c6a75f,
-    b7864c,
-    a05f36,
-    913f27,
-    7e1c1c
+	  6b8bb5,
+    4a4a9e,
+    3c3a99,
+    2f2d91,
+    1c1b75
     ]}
   {
     //rock 1
