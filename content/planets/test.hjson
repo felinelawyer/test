@@ -13,6 +13,66 @@ mesh: [
         seed: 345
         color1: FFFFFFFF
     }
+  {
+    //rock 1
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.55274
+    seed: 11
+    color1: 18234d
+    color2: 18234d
+    octaves: 6
+    persistence: 0.6
+	  mag: 0.6
+  }
+  {
+    //rock 2
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.53128
+    seed: 11
+    color1: 6f95c7
+    color2: 6f95c7
+    octaves: 7
+    persistence: 0.6
+	  mag: 1
+  }
+  {
+    //desert
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.50518
+    seed: 11
+    color1: bf6f4c
+    color2: bf6f4c
+    octaves: 7
+    persistence: 0.6
+	  mag: 1.5
+  }
+  {
+    //low mountain
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.36975
+    seed: 11
+    color1: a65142
+    color2: a65142
+    octaves: 4
+    persistence: 0.7
+	  mag: 5
+  }
+  {
+    //mountain
+    type: NoiseMesh
+    divisions: 5
+    radius: 0.2987
+    seed: 11
+    color1: a6424c
+    color2: a6424c
+    octaves: 4
+    persistence: 0.7
+	  mag: 8
+  }
 ]
 generator: {
   octaves: 4
