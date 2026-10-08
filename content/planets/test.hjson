@@ -71,8 +71,8 @@ type: SunMesh
     divisions: 5
     radius: 0.2987
     seed: 11
-    color1: a6424c
-    color2: a6424c
+    color1: a6424cff
+    color2: a6424cff
     octaves: 5
     persistence: 1
 	  mag: 1.2
@@ -111,7 +111,7 @@ updateLighting: true
 sectorSeed: 83293
 bloom: true
 visible: true
-atmosphereColor: 00dd81ff
+atmosphereColor: 4d00ddff
 iconColor: cecf72ff
 hasAtmosphere: true
 clearSectorOnLose: true
