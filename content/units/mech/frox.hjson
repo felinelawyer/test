@@ -41,9 +41,9 @@ weapons: [
     height: 12
     hitEffect: [{
         type: ParticleEffect
-        sizeChangeStart: 45
-        lifetime: 75
-        particles: 15
+        sizeChangeStart: 22
+        lifetime: 45
+        particles: 9
         cone: 360
         length: 7
         sizeFrom: 0.7
@@ -67,6 +67,7 @@ weapons: [
     {
         type: ParticleEffect
         particles: 1
+        lifetime: 30
         length: 7
         colorFrom: a1ffecff
         colorTo: a1ffec99
@@ -106,7 +107,7 @@ weapons: [
     backColor: 75d6ffff
     hitColor: bff7ffff
     trailColor: a1ffecff
-    trailWidth: 0.95
+    trailWidth: 1.7
     trailLength: 7
     trailInterval: 1.8
     trailEffect: none
