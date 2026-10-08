@@ -73,9 +73,9 @@ type: SunMesh
     seed: 11
     color1: a6424c
     color2: a6424c
-    octaves: 4
-    persistence: 10
-	  mag: 8
+    octaves: 40
+    persistence: 40
+	  mag: 100
   }
 ]
 generator: {
