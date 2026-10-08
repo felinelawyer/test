@@ -53,7 +53,7 @@ weapons: [
     trailWidth: 0.95
     trailLength: 7
     trailInterval: 1.8
-    trailEffect: {shootSmokeSquare}{
+    trailEffect: {shootSmokeSquare},{
         type: ParticleEffect
         startDelay:2
         lifetime: 7
