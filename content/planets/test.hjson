@@ -4,12 +4,12 @@ alwaysUnlocked: true
 mesh: [{
 type: SunMesh 
     divisions: 5
-    octaves: 2.4
+    octaves: 1
     persistence: 0.5
     scl: 2
     pow: 1
     mag: 1
-    colorScale: 1
+    colorScale: 1.05
     colors: [
 	  6b91b5,
     4f789e,
@@ -18,64 +18,65 @@ type: SunMesh
     
     ]}
   {
+  {
     //rock 1
     type: NoiseMesh
     divisions: 5
-    radius: 0.7
+    radius: 0.55274
     seed: 11
-    color1: 18234d
-    color2: 18234d
-    octaves: 1.9
-    persistence: 1.1
-	  mag: 1.1
+    color1: 231f26
+    color2: 231f26
+    octaves: 6
+    persistence: 0.6
+	  mag: 0.6
   }
   {
     //rock 2
     type: NoiseMesh
     divisions: 5
-    radius: 0.67
+    radius: 0.53128
     seed: 11
-    color1: 6f95c7
-    color2: 6f95c7
-    octaves: 2.6
-    persistence: 1.1
-	  mag: 1.2
+    color1: 2a3040
+    color2: 2a3040
+    octaves: 7
+    persistence: 0.6
+	  mag: 1
   }
   {
     //desert
     type: NoiseMesh
     divisions: 5
-    radius: 0.71
+    radius: 0.50518
     seed: 11
     color1: bf6f4c
     color2: bf6f4c
-    octaves: 1
-    persistence: 1.1
+    octaves: 7
+    persistence: 0.6
 	  mag: 1.5
   }
   {
     //low mountain
     type: NoiseMesh
     divisions: 5
-    radius: 0.9
+    radius: 0.36975
     seed: 11
     color1: a65142
     color2: a65142
-    octaves: 1.8
-    persistence: 2
+    octaves: 4
+    persistence: 0.7
 	  mag: 5
   }
   {
     //mountain
     type: NoiseMesh
     divisions: 5
-    radius: 1.04
+    radius: 0.2987
     seed: 11
     color1: a6424c
     color2: a6424c
-    octaves: 1
-    persistence: 1
-	  mag: 1.2
+    octaves: 4
+    persistence: 0.7
+	  mag: 8
   }
 ]
 generator: {
