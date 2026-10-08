@@ -57,12 +57,12 @@ weapons: [
         type: ParticleEffect
         startDelay:2
         lifetime: 7
-        particles: 1
+        particles: 15
         cone: -30
-        length: 1
-        sizeFrom: 3
-        sizeTo: 1
-        colorFrom: a1ffec90
+        length: 9
+        sizeFrom: 0.7
+        sizeTo: 1.5
+        colorFrom: a1ffecff
         colorTo: a1ffec00
     }
     missColor: 75d6ffff
