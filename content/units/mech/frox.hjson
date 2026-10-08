@@ -23,7 +23,7 @@ weapons: [
     rotate: false
     mirror: true
     alternate: true
-    reload: 15
+    reload: 30
     shootSound: shootDuo
     shootCone: 30
     inaccuracy: 3
@@ -31,7 +31,7 @@ weapons: [
     type: BasicBulletType
     speed: 8
     lifetime: 15
-    damage: 6
+    damage: 13
     status: frostburn
     statusDuration: 30
     pierce: true
@@ -39,6 +39,18 @@ weapons: [
     pierceCap: 2
     width: 8
     height: 12
+    shootEffect: {
+        type: ParticleEffect
+        sizeChangeStart: 20
+        lifetime: 30
+        particles: 15
+        cone: 225
+        length: 7
+        sizeFrom: 0.7
+        sizeTo: 0
+        colorFrom: a1ffecff
+        colorTo: a1ffec80
+    }
     smokeEffect: shootSmokeSquare
     backColor: 75d6ffff
     hitColor: bff7ffff
@@ -46,24 +58,12 @@ weapons: [
     trailWidth: 0.95
     trailLength: 7
     trailInterval: 1.8
-    trailEffect: {
-        type: ParticleEffect
-        sizeChangeStart: 15
-        lifetime: 25
-        particles: 15
-        cone: 45
-        length: 8
-        sizeFrom: 0.7
-        sizeTo: 0
-        colorFrom: a1ffecff
-        colorTo: a1ffec80
-    }
     despawnEffect: {
         type: ParticleEffect
         sizeChangeStart: 60
         lifetime: 90
         particles: 15
-        cone: 45
+        cone: 360
         length: 7
         sizeFrom: 0.7
         sizeTo: 0
