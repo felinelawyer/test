@@ -74,7 +74,7 @@ type: SunMesh
     color1: a6424c
     color2: a6424c
     octaves: 4
-    persistence: 0.7
+    persistence: 10
 	  mag: 8
   }
 ]
