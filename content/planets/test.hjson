@@ -22,7 +22,7 @@ type: SunMesh
     //rock 1
     type: NoiseMesh
     divisions: 5
-    radius: 0.55274
+    radius: 0.55
     seed: 11
     color1: 231f26
     color2: 231f26
@@ -34,7 +34,7 @@ type: SunMesh
     //rock 2
     type: NoiseMesh
     divisions: 5
-    radius: 0.53128
+    radius: 0.53
     seed: 11
     color1: 2a3040
     color2: 2a3040
@@ -46,7 +46,7 @@ type: SunMesh
     //desert
     type: NoiseMesh
     divisions: 5
-    radius: 0.50518
+    radius: 0.50
     seed: 11
     color1: bf6f4c
     color2: bf6f4c
@@ -58,7 +58,7 @@ type: SunMesh
     //low mountain
     type: NoiseMesh
     divisions: 5
-    radius: 0.36975
+    radius: 0.37
     seed: 11
     color1: a65142
     color2: a65142
@@ -70,7 +70,7 @@ type: SunMesh
     //mountain
     type: NoiseMesh
     divisions: 5
-    radius: 0.2987
+    radius: 0.3
     seed: 11
     color1: a6424c
     color2: a6424c
