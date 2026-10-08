@@ -25,7 +25,7 @@ type: SunMesh
     seed: 11
     color1: 18234d
     color2: 18234d
-    octaves: 6
+    octaves: 1
     persistence: 1.1
 	  mag: 1.1
   }
@@ -37,7 +37,7 @@ type: SunMesh
     seed: 11
     color1: 6f95c7
     color2: 6f95c7
-    octaves: 7
+    octaves: 1
     persistence: 1.1
 	  mag: 1.2
   }
@@ -49,7 +49,7 @@ type: SunMesh
     seed: 11
     color1: bf6f4c
     color2: bf6f4c
-    octaves: 7
+    octaves: 1
     persistence: 1.1
 	  mag: 1.5
   }
@@ -61,7 +61,7 @@ type: SunMesh
     seed: 11
     color1: a65142
     color2: a65142
-    octaves: 4
+    octaves: 1.2
     persistence: 2
 	  mag: 5
   }
@@ -73,7 +73,7 @@ type: SunMesh
     seed: 11
     color1: a6424c
     color2: a6424c
-    octaves: 5
+    octaves: 1
     persistence: 1
 	  mag: 1.2
   }
