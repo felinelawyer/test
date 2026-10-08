@@ -103,6 +103,7 @@ weapons: [
         colorFrom: a1ffecff
         colorTo: a1ffec80
     }
+    trailSpread: 100
     smokeEffect: shootSmokeSquare
     backColor: 75d6ffff
     hitColor: bff7ffff
