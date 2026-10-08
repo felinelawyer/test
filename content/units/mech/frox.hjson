@@ -39,6 +39,57 @@ weapons: [
     pierceCap: 2
     width: 8
     height: 12
+    hitEffect: [{
+        type: ParticleEffect
+        sizeChangeStart: 45
+        lifetime: 75
+        particles: 15
+        cone: 360
+        length: 7
+        sizeFrom: 0.7
+        sizeTo: 0
+        colorFrom: a1ffecff
+        colorTo: a1ffec90
+    }
+    {
+        type: ParticleEffect
+        particles: 2
+        length: 7
+        colorFrom: a1ffecff
+        colorTo: a1ffec99
+        sizeFrom: 1.5
+        sizeTo: 0
+        cone: 180
+        layer:100.3
+        lifetime: 50
+        sizeInterp: linear
+    }
+    {
+        type: ParticleEffect
+        particles: 1
+        length: 7
+        colorFrom: a1ffecff
+        colorTo: a1ffec99
+        sizeFrom: 1.5
+        sizeTo: 0
+        cone: -180
+        layer:100.3
+        lifetime: 50
+        sizeInterp: linear
+    }
+    {
+        type: ParticleEffect
+        particles: 3
+        length: 9
+        colorFrom: a1ffecff
+        colorTo: a1ffec99
+        sizeFrom: 1.5
+        sizeTo: 0
+        cone: 360
+        layer:100.3
+        lifetime: 50
+        sizeInterp: linear
+    }]
     shootEffect: {
         type: ParticleEffect
         sizeChangeStart: 20
@@ -58,6 +109,7 @@ weapons: [
     trailWidth: 0.95
     trailLength: 7
     trailInterval: 1.8
+    trailEffect: none
     despawnEffect: {
         type: ParticleEffect
         sizeChangeStart: 60
