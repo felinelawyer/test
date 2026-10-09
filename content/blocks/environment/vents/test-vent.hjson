@@ -1,8 +1,8 @@
 name: testvent
 type: SteamVent
-blendGroup: 4bluetile1
+blendGroup: 4bluetile
 inEditor: true
-parent: 4bluetile1
+parent: 4bluetile
 attributes: {
     venter: 0.11111111112
     steam: 1
