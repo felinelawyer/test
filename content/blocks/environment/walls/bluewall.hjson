@@ -1,3 +1,4 @@
 type: StaticWall
+large: bluewall-large
 name: bluewall
 variants: 3
