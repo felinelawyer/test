@@ -1,0 +1,66 @@
+type: legs
+name: pearl
+stepSound: walkerStepTiny
+stepSoundVolume: 0.4
+type: legs
+legCount: 5
+lockLegBase: true
+legExtension: -2
+legBaseOffset: 2
+legLength: 7
+legMaxLength: 1.1
+legMinLength: 0.25
+legSpeed: 0.25
+legGroupSize: 3
+legForwardScl: 1.05
+legLengthScl: 0.95
+legPhysicsLayer: false
+legStraightness: 0.3
+
+hovering: true
+groundLayer: 60
+health: 260
+armor: 3
+allowLegStep: true
+speed: 1.2
+rotateSpeed: 3
+hitSize: 10.25
+drag: 0.1
+itemCapacity: 10
+outlineColor: 13151AFF
+
+research: core-claron
+researchCost: [
+  nickel/2
+] 
+weapons: [
+  {
+    x: 0
+    y: -1
+    mirror: false
+    name: pearl-beam
+    continuous: true
+    alwaysContinuous: true
+    ejectEffect: none
+    shootSound: beamLustre
+    shootSoundVolume: 0.6
+    shootY: 1
+    bullet: {
+      collides: true
+      collidesTiles: true
+      collidesAir: true
+      collidesGround: true
+      type: ContinuousFlameBulletType
+      colors: [63ffd8, 73ffce, b3ffe4, d6fff1, ffffff]
+      length: 80
+      width: 1.25
+      drawFlare: false
+      damageInterval: 10
+      damage: 8
+      buildingDamageMultiplier: 1
+      pierceArmor: 1
+      pierceCap: 1
+      hitEffect: none
+      despawnEffect: none
+    }
+  }]
