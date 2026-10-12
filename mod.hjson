@@ -1,8 +1,8 @@
-name: "test"
-displayName: "mod"
+name: "mod"
+displayName: "havent chosen"
 author: jam
-description: "ooo"
-version: "test"
+description: "adding new stuff rn"
+version: "alpha or something idfk"
 minGameVersion: "159.7"
 dependencies: ["multicrafter"]
 hidden: false
