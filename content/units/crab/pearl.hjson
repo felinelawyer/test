@@ -1,21 +1,21 @@
 type: legs
 name: pearl
 stepSound: walkerStepTiny
-stepSoundVolume: 0.4
+stepSoundVolume: 0.75
 type: legs
 legCount: 5
 lockLegBase: true
 legExtension: -2
-legBaseOffset: 2
-legLength: 7
+legBaseOffset: 1
+legLength: 8
 legMaxLength: 1.1
 legMinLength: 0.25
 legSpeed: 0.25
-legGroupSize: 3
+legGroupSize: 1
 legForwardScl: 1.05
 legLengthScl: 0.95
 legPhysicsLayer: false
-legStraightness: 0.3
+legStraightness: 0.5
 
 hovering: true
 groundLayer: 60
