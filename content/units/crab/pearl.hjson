@@ -41,7 +41,7 @@ weapons: [
     name: pearl-beam
     continuous: true
     alwaysContinuous: true
-    ejectEffect: none
+    ejectEffect: shootSmokeSquare
     shootSound: beamLustre
     shootSoundVolume: 0.6
     shootY: 1
@@ -59,7 +59,7 @@ weapons: [
       damage: 8
       buildingDamageMultiplier: 1
       pierceArmor: 1
-      pierceCap: 1
+      pierceCap: 2
       hitEffect: none
       despawnEffect: none
     }
