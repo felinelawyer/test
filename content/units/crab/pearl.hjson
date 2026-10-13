@@ -43,7 +43,7 @@ weapons: [
     alwaysContinuous: true
     ejectEffect: shootSmokeSquare
     shootSound: beamLustre
-    smokeEffect: [{
+    shootEffect: [{
         type: ParticleEffect
         sizeChangeStart: 30
         particles: 12
