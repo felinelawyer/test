@@ -55,7 +55,6 @@ weapons: [
         sizeTo: 0
         cone: 360
         layer:100.3
-        sizeInterp: linear
     }
     {
         type: ParticleEffect
@@ -69,7 +68,6 @@ weapons: [
         cone: 45
         layer:100.3
         lifetime: 50
-        sizeInterp: linear
     }]
     shootSoundVolume: 0.6
     shootY: 1
