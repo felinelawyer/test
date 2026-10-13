@@ -43,6 +43,34 @@ weapons: [
     alwaysContinuous: true
     ejectEffect: shootSmokeSquare
     shootSound: beamLustre
+    smokeEffect: [{
+        type: ParticleEffect
+        sizeChangeStart: 30
+        particles: 12
+        lifetime 50
+        length: 7
+        colorFrom: a1ffecff
+        colorTo: a1ffec99
+        sizeFrom: 1.5
+        sizeTo: 0
+        cone: 360
+        layer:100.3
+        sizeInterp: linear
+    }
+    {
+        type: ParticleEffect
+        particles: 3
+        length: 9
+        sizeChangeStart: 30
+        colorFrom: a1ffecff
+        colorTo: a1ffec99
+        sizeFrom: 1.2
+        sizeTo: 0
+        cone: 45
+        layer:100.3
+        lifetime: 50
+        sizeInterp: linear
+    }]
     shootSoundVolume: 0.6
     shootY: 1
     bullet: {
